@@ -1,2 +1,4 @@
 # AplicativoPG
-web dos retrabalhos P&amp;G
+Retrabalhos P&amp;G
+
+https://gersincomp.github.io/AplicativoPG/Aplicativo_Apontamento/
