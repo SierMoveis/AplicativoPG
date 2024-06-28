@@ -105,7 +105,10 @@ const unidades = {
     
     URPG1: {    // Consumo de matérial:
         Transporte: [
-            { data: "02/07/2024", captura: ["", "", "", ""] },
+            { data: "01/03/2024", captura: ["capturas/2024/6- Junho/Transporte/3-pt1.jpg", "capturas/2024/6- Junho/Transporte/3-pt2.jpg", "capturas/2024/6- Junho/Transporte/3-ptg.jpg"] },
+            { data: "01/04/2024", captura: ["capturas/2024/6- Junho/Transporte/4-pt1.jpg", "capturas/2024/6- Junho/Transporte/4-pt2.jpg", "capturas/2024/6- Junho/Transporte/4-ptg.jpg"] },
+            { data: "01/05/2024", captura: ["capturas/2024/6- Junho/Transporte/5-pt1.jpg", "capturas/2024/6- Junho/Transporte/5-pt2.jpg", "capturas/2024/6- Junho/Transporte/5-ptg.jpg"] },
+            { data: "01/06/2024", captura: ["capturas/2024/6- Junho/Transporte/6-pt1.jpg", "capturas/2024/6- Junho/Transporte/6-pt2.jpg", "capturas/2024/6- Junho/Transporte/6-ptg.jpg"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
@@ -115,7 +118,7 @@ const unidades = {
 
     URPG2: {    // Consumo de matérial:
         Pcp: [
-            { data: "02/07/2024", captura: ["", "", "", ""] },
+            // { data: "02/07/2024", captura: ["", "", "", ""] },
 
             // { data: "", captura: ["", "", "", ""] },
             // { data: "", captura: ["", "", "", ""] },
@@ -124,7 +127,7 @@ const unidades = {
 
     URPG3: {    // Consumo de matérial:
         Kanban: [
-            { data: "02/07/2024", captura: ["", "", "", ""] },
+            // { data: "02/07/2024", captura: ["", "", "", ""] },
 
             // { data: "", captura: ["", "", "", ""] },
             // { data: "", captura: ["", "", "", ""] },
@@ -133,7 +136,7 @@ const unidades = {
 
     URPG4: {    // Consumo de matérial:
         Cadastro: [
-            { data: "02/07/2024", captura: ["", "", "", ""] },
+            // { data: "02/07/2024", captura: ["", "", "", ""] },
 
             // { data: "", captura: ["", "", "", ""] },
             // { data: "", captura: ["", "", "", ""] },
@@ -142,7 +145,7 @@ const unidades = {
 
     URPG5: {    // Consumo de matérial:
         Comercial: [
-            { data: "02/07/2024", captura: ["", "", "", ""] },
+            // { data: "02/07/2024", captura: ["", "", "", ""] },
 
             // { data: "", captura: ["", "", "", ""] },
             // { data: "", captura: ["", "", "", ""] },
@@ -151,7 +154,7 @@ const unidades = {
 
     URPG6: {    // Consumo de matérial:
         Compras: [
-            { data: "02/07/2024", captura: ["", "", "", ""] },
+            // { data: "02/07/2024", captura: ["", "", "", ""] },
 
             // { data: "", captura: ["", "", "", ""] },
             // { data: "", captura: ["", "", "", ""] },
@@ -160,7 +163,7 @@ const unidades = {
 
     URPG7: {    // Consumo de matérial:
         Assistencia: [
-            { data: "02/07/2024", captura: ["", "", "", ""] },
+            // { data: "02/07/2024", captura: ["", "", "", ""] },
 
             // { data: "", captura: ["", "", "", ""] },
             // { data: "", captura: ["", "", "", ""] },
@@ -169,7 +172,7 @@ const unidades = {
 
     URPG8: {    // Consumo de matérial:
         Designer: [
-            { data: "02/07/2024", captura: ["", "", "", ""] },
+            // { data: "02/07/2024", captura: ["", "", "", ""] },
 
             // { data: "", captura: ["", "", "", ""] },
             // { data: "", captura: ["", "", "", ""] },
@@ -178,7 +181,7 @@ const unidades = {
 
     URPG9: {    // Consumo de matérial:
         Faturamento: [
-            { data: "02/07/2024", captura: ["", "", "", ""] },
+            // { data: "02/07/2024", captura: ["", "", "", ""] },
 
             // { data: "", captura: ["", "", "", ""] },
             // { data: "", captura: ["", "", "", ""] },
