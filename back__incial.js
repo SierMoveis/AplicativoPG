@@ -180,39 +180,39 @@ const unidades = {
     },
 
     URPG11: {
-        Financeiro: [
+        Contabilidade: [
 
             // { data: "", captura: ["", "", "", ""] },
         ],
     },
 
     URPG12: {
-        Financeiro: [
+        Almoxarifado: [
 
             // { data: "", captura: ["", "", "", ""] },
         ],
     },
 
     URPG13: {
-        Financeiro: [
+        ComprasManutencao: [
 
             // { data: "", captura: ["", "", "", ""] },
         ],
     },
 
-    URPG14: {
-        Financeiro: [
-
-            // { data: "", captura: ["", "", "", ""] },
-        ],
-    },
-
-    URPG15: {
-        Financeiro: [
-
-            // { data: "", captura: ["", "", "", ""] },
-        ],
-    },
+//    URPG14: {
+//        Financeiro: [
+//
+//            // { data: "", captura: ["", "", "", ""] },
+//        ],
+//    },
+//
+//    URPG15: {
+//        Financeiro: [
+//
+//            // { data: "", captura: ["", "", "", ""] },
+//        ],
+//    },
 };
 
 function exibirInformação(unidade) {
