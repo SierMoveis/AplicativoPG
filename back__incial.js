@@ -99,11 +99,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 const unidades = {
-    //  { data: "", captura: ["", "", "", "", ""] },
 
-    // Produtividade:
-    
-    URPG1: {    // Consumo de matérial:
+    URPG1: {
         Transporte: [
             { data: "01/03/2024", captura: ["capturas/2024/6- Junho/Transporte/3-pt1.jpg", "capturas/2024/6- Junho/Transporte/3-pt2.jpg", "capturas/2024/6- Junho/Transporte/3-ptg.jpg"] },
             { data: "01/04/2024", captura: ["capturas/2024/6- Junho/Transporte/4-pt1.jpg", "capturas/2024/6- Junho/Transporte/4-pt2.jpg", "capturas/2024/6- Junho/Transporte/4-ptg.jpg"] },
@@ -112,78 +109,107 @@ const unidades = {
 
 
             // { data: "", captura: ["", "", "", ""] },
-            // { data: "", captura: ["", "", "", ""] },
         ],
     },
 
-    URPG2: {    // Consumo de matérial:
+    URPG2: {
         Pcp: [
-            // { data: "02/07/2024", captura: ["", "", "", ""] },
 
-            // { data: "", captura: ["", "", "", ""] },
             // { data: "", captura: ["", "", "", ""] },
         ],
     },
 
-    URPG3: {    // Consumo de matérial:
-        Kanban: [
-            // { data: "02/07/2024", captura: ["", "", "", ""] },
+    URPG3: {
+        ti: [
 
-            // { data: "", captura: ["", "", "", ""] },
             // { data: "", captura: ["", "", "", ""] },
         ],
     },
 
-    URPG4: {    // Consumo de matérial:
+    URPG4: {
         Cadastro: [
-            // { data: "02/07/2024", captura: ["", "", "", ""] },
 
             // { data: "", captura: ["", "", "", ""] },
-            // { data: "", captura: ["", "", "", ""] },
+
         ],
     },
 
-    URPG5: {    // Consumo de matérial:
+    URPG5: {
         Comercial: [
-            // { data: "02/07/2024", captura: ["", "", "", ""] },
 
             // { data: "", captura: ["", "", "", ""] },
-            // { data: "", captura: ["", "", "", ""] },
+
         ],
     },
 
-    URPG6: {    // Consumo de matérial:
+    URPG6: {
         Compras: [
-            // { data: "02/07/2024", captura: ["", "", "", ""] },
 
             // { data: "", captura: ["", "", "", ""] },
-            // { data: "", captura: ["", "", "", ""] },
+
         ],
     },
 
-    URPG7: {    // Consumo de matérial:
+    URPG7: {
         Assistencia: [
-            // { data: "02/07/2024", captura: ["", "", "", ""] },
 
             // { data: "", captura: ["", "", "", ""] },
+
+        ],
+    },
+
+    URPG8: {
+        Design: [
+
             // { data: "", captura: ["", "", "", ""] },
         ],
     },
 
-    URPG8: {    // Consumo de matérial:
-        Designer: [
-            // { data: "02/07/2024", captura: ["", "", "", ""] },
-
-            // { data: "", captura: ["", "", "", ""] },
-            // { data: "", captura: ["", "", "", ""] },
-        ],
-    },
-
-    URPG9: {    // Consumo de matérial:
+    URPG9: {
         Faturamento: [
-            // { data: "02/07/2024", captura: ["", "", "", ""] },
 
             // { data: "", captura: ["", "", "", ""] },
+        ],
+    },
+
+    URPG10: {
+        Financeiro: [
+
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+    },
+
+    URPG11: {
+        Financeiro: [
+
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+    },
+
+    URPG12: {
+        Financeiro: [
+
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+    },
+
+    URPG13: {
+        Financeiro: [
+
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+    },
+
+    URPG14: {
+        Financeiro: [
+
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+    },
+
+    URPG15: {
+        Financeiro: [
+
             // { data: "", captura: ["", "", "", ""] },
         ],
     },
