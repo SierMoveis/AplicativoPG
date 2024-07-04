@@ -172,12 +172,12 @@ const unidades = {
         ],
     },
 
-    URPG10: {
-        Financeiro: [
-
-            // { data: "", captura: ["", "", "", ""] },
-        ],
-    },
+//    URPG10: {
+//        Financeiro: [
+//
+//            // { data: "", captura: ["", "", "", ""] },
+//        ],
+//    },
 
     URPG11: {
         Contabilidade: [
