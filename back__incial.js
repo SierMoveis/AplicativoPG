@@ -151,7 +151,7 @@ const unidades = {
     },
 
     URPG7: {
-        Assistencia: [
+        AssistenciaC: [
 
             // { data: "", captura: ["", "", "", ""] },
 
@@ -166,7 +166,7 @@ const unidades = {
     },
 
     URPG9: {
-        Faturamento: [
+        Custos: [
 
             // { data: "", captura: ["", "", "", ""] },
         ],
@@ -200,19 +200,20 @@ const unidades = {
         ],
     },
 
-//    URPG14: {
-//        Financeiro: [
-//
-//            // { data: "", captura: ["", "", "", ""] },
-//        ],
-//    },
-//
-//    URPG15: {
-//        Financeiro: [
-//
-//            // { data: "", captura: ["", "", "", ""] },
-//        ],
-//    },
+    URPG14: {
+        Recepcao: [
+
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+    },
+
+    URPG15: {
+        AssistenciaP: [
+
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+    },
+
 };
 
 function exibirInformação(unidade) {
