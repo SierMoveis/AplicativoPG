@@ -56,6 +56,7 @@
                 <a class="link__menu" href="#URPG13">COMPRAS (MANUTENÇÃO)</a>
                 <a class="link__menu" href="#URPG14">RECEPÇÃO</a>
                 <a class="link__menu" href="#URPG15">ASSISTÊNCIA TÉCNICA (PRODUÇÃO)</a>
+                <a class="link__menu" href="#URPG16">FINANCEIRO</a>
             </nav>
 
             <article id="URPG1" class="unidade">
@@ -727,6 +728,51 @@
                         </div>
 
                         <div id="detalhesContainer_alert_URPG15" class="centralizar estilo__alerta"></div>
+
+                    </div>
+                </div>
+
+            </article>
+
+            <article id="URPG16" class="unidade">
+                <h6 class="titulo_h6 ocultar">financeiro - Jiane Duarte</h6>
+                <div class="centralizar estilo__carregando" id="loadingMessage_URPG16">
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+                <div class="setores centralizar">
+                    <div>
+                        <div class="centralizar ocultar">
+                            <label class="label__ " for="dataInput_URPG16">Selecione uma data:</label>
+                            <input class="input__" type="date" id="dataInput_URPG16">
+                        </div>
+
+
+                            <div class="centralizar ocultar">
+                                <label class="label__" for="setorSelect_URPG16">Selecione um setor:</label>
+                                <select class="select__" id="setorSelect_URPG16" onchange="atualizarInputData('URPG16')">
+                                    <option class="option__" ></option>
+                                    <option class="option__" value="Financeiro">Financeiro</option>
+                                </select>
+                            </div>
+
+
+                        <div id="detalhesContainer_URPG16" class="estilo__detalhes"></div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="diaAnterior('URPG16')">⇽</button>
+                            <button class="botao__" onclick="exibirInformação('URPG16')">🔍</button>
+                            <button class="botao__" onclick="proximoDia('URPG16')">⇾</button>
+                        </div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="voltar('URPG16')">Voltar</button>
+                            <button class="botao__" onclick="limparDetalhes('URPG16')">Limpar</button>
+                        </div>
+
+                        <div id="detalhesContainer_alert_URPG16" class="centralizar estilo__alerta"></div>
 
                     </div>
                 </div>
