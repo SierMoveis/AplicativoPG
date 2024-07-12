@@ -100,6 +100,7 @@ body {
     color: #000000;
     border-radius: 10px;
     text-decoration: none;
+    text-align: center;
 }
 
 .inicial__menu a:hover {
