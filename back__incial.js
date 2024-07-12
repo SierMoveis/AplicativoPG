@@ -107,6 +107,8 @@ const unidades = {
             { data: "01/05/2024", captura: ["capturas/2024/6- Junho/Transporte/5-pt1.jpg", "capturas/2024/6- Junho/Transporte/5-pt2.jpg", "capturas/2024/6- Junho/Transporte/5-ptg.jpg"] },
             { data: "01/06/2024", captura: ["capturas/2024/6- Junho/Transporte/6-pt1.jpg", "capturas/2024/6- Junho/Transporte/6-pt2.jpg", "capturas/2024/6- Junho/Transporte/6-ptg.jpg"] },
 
+            { data: "05/07/2024", captura: ["", "", "", ""] },
+
 
             // { data: "", captura: ["", "", "", ""] },
         ],
