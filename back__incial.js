@@ -109,7 +109,7 @@ const unidades = {
 
             { data: "05/07/2024", captura: ["capturas/2024/7- Julho/1- Transporte/semana1/PARTE 1.jpg", "capturas/2024/7- Julho/1- Transporte/semana1/PARTE 2.jpg", "capturas/2024/7- Julho/1- Transporte/semana1/PARTE 3.jpg"] },
             { data: "12/07/2024", captura: ["capturas/2024/7- Julho/1- Transporte/semana2/PARTE 1.jpg", "capturas/2024/7- Julho/1- Transporte/semana2/PARTE 2.jpg", "capturas/2024/7- Julho/1- Transporte/semana2/PARTE 3.jpg"] },
-            { data: "19/07/2024", captura: ["capturas/2024/7- Julho/1- Transporte/semana3/PRINT 1.jpg", "capturas/2024/7- Julho/1- Transporte/semana3/PRINT 2.jpg", "capturas/2024/7- Julho/1- Transporte/semana3/PRINT 3.jpg"] },
+            { data: "19/07/2024", captura: ["capturas/2024/7- Julho/1- Transporte/semana3/PRINT 1.jpg", "capturas/2024/7- Julho/1- Transporte/semana3/PRINT 2.jpeg", "capturas/2024/7- Julho/1- Transporte/semana3/PRINT 3.jpg"] },
 
 
             // { data: "", captura: ["", "", ""] },
