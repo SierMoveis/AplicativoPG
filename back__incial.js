@@ -164,6 +164,8 @@ const unidades = {
 
     URPG7: {
         Design: [
+            { data: "19/07/2024", captura: ["capturas/2024/7- Julho/7- Design/semana3/01.png", "capturas/2024/7- Julho/7- Design/semana3/2.jpeg", "capturas/2024/7- Julho/7- Design/semana3/3.jpeg"] },
+
 
             // { data: "", captura: ["", "", ""] },
         ],
