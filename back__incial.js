@@ -118,7 +118,7 @@ const unidades = {
 
     URPG2: {
         Pcp: [
-            { data: "19/07/2024", captura: ["capturas/2024/7- Julho/2 -Pcp/semana3/WhatsApp Image 2024-07-19 at 16.34.28.jpeg", "", "capturas/2024/7- Julho/2 -Pcp/semana3/WhatsApp Image 2024-07-19 at 16.36.32.jpeg"] },
+            { data: "19/07/2024", captura: ["capturas/2024/7- Julho/2 -Pcp/semana3/WhatsApp Image 2024-07-19 at 16.34.28.jpeg", "capturas/2024/7- Julho/2 -Pcp/semana3/f349b25f-03c0-4420-9212-841dc873b5f8.jpeg", "capturas/2024/7- Julho/2 -Pcp/semana3/WhatsApp Image 2024-07-19 at 16.36.32.jpeg"] },
 
 
             // { data: "", captura: ["", "", ""] },
@@ -163,19 +163,19 @@ const unidades = {
     },
 
     URPG7: {
+        Design: [
+
+            // { data: "", captura: ["", "", ""] },
+        ],
+    },
+
+    URPG8: {
         AssistenciaC: [
             { data: "19/07/2024", captura: ["capturas/2024/7- Julho/8- Assistência Comercial/semana3/Captura de tela 2024-07-19 161834.png", "capturas/2024/7- Julho/8- Assistência Comercial/semana3/grafico.png", "capturas/2024/7- Julho/8- Assistência Comercial/semana3/comparação.PNG"] },
 
 
             // { data: "", captura: ["", "", ""] },
 
-        ],
-    },
-
-    URPG8: {
-        Design: [
-
-            // { data: "", captura: ["", "", ""] },
         ],
     },
 
