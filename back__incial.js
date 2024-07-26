@@ -114,45 +114,33 @@ const unidades = {
 
             // { data: "", captura: ["", "", ""] },
         ],
-    },
 
-    URPG2: {
         Pcp: [
             { data: "19/07/2024", captura: ["capturas/2024/7- Julho/2 -Pcp/semana3/WhatsApp Image 2024-07-19 at 16.34.28.jpeg", "capturas/2024/7- Julho/2 -Pcp/semana3/f349b25f-03c0-4420-9212-841dc873b5f8.jpeg", "capturas/2024/7- Julho/2 -Pcp/semana3/WhatsApp Image 2024-07-19 at 16.36.32.jpeg"] },
 
 
             // { data: "", captura: ["", "", ""] },
         ],
-    },
 
-    URPG3: {
         ti: [
 
             // { data: "", captura: ["", "", ""] },
         ],
-    },
 
-    URPG4: {
         Cadastro: [
             { data: "19/07/2024", captura: ["capturas/2024/7- Julho/4- Cadastro - Kbm/semana3/pt 01 19-07.jpg", "capturas/2024/7- Julho/4- Cadastro - Kbm/semana3/pt 02 19-07.jpg", "capturas/2024/7- Julho/4- Cadastro - Kbm/semana3/pt 03 19-07.jpg"] },
 
 
             // { data: "", captura: ["", "", ""] },
-
         ],
-    },
 
-    URPG5: {
         Comercial: [
             { data: "19/07/2024", captura: ["capturas/2024/7- Julho/5- Comercial/semana3/Print 01.png", "capturas/2024/7- Julho/5- Comercial/semana3/Print 02.png", "capturas/2024/7- Julho/5- Comercial/semana3/Print 03.png"] },
 
 
             // { data: "", captura: ["", "", ""] },
-
         ],
-    },
 
-    URPG6: {
         Compras: [
             { data: "19/07/2024", captura: ["capturas/2024/7- Julho/6- Compras/semana3/Print 01.png", "capturas/2024/7- Julho/6- Compras/semana3/Print 02.jpeg", "capturas/2024/7- Julho/6- Compras/semana3/Print 03.png"] },
 
@@ -160,18 +148,14 @@ const unidades = {
             // { data: "", captura: ["", "", ""] },
 
         ],
-    },
 
-    URPG7: {
         Design: [
             { data: "19/07/2024", captura: ["capturas/2024/7- Julho/7- Design/semana3/01.png", "capturas/2024/7- Julho/7- Design/semana3/2.jpeg", "capturas/2024/7- Julho/7- Design/semana3/3.jpeg"] },
 
 
             // { data: "", captura: ["", "", ""] },
         ],
-    },
 
-    URPG8: {
         AssistenciaC: [
             { data: "19/07/2024", captura: ["capturas/2024/7- Julho/8- Assistência Comercial/semana3/Captura de tela 2024-07-19 161834.png", "capturas/2024/7- Julho/8- Assistência Comercial/semana3/grafico.png", "capturas/2024/7- Julho/8- Assistência Comercial/semana3/comparação.PNG"] },
 
@@ -179,70 +163,54 @@ const unidades = {
             // { data: "", captura: ["", "", ""] },
 
         ],
-    },
 
-    URPG9: {
         Custos: [
             { data: "19/07/2024", captura: ["capturas/2024/7- Julho/9- Custos/semana3/Print 01.png", "capturas/2024/7- Julho/9- Custos/semana3/Print 02.png", "capturas/2024/7- Julho/9- Custos/semana3/Print 03.png"] },
 
 
             // { data: "", captura: ["", "", ""] },
         ],
-    },
 
-    URPG10: {
         Programacao: [
             { data: "19/07/2024", captura: ["capturas/2024/7- Julho/10- Programação/semana3/p1.jpg", "capturas/2024/7- Julho/10- Programação/semana3/2CORRETO.jpeg", "capturas/2024/7- Julho/10- Programação/semana3/p3.jpg"] },
 
 
             // { data: "", captura: ["", "", ""] },
         ],
-    },
 
-    URPG11: {
         Contabilidade: [
             { data: "19/07/2024", captura: ["capturas/2024/7- Julho/11- Contabilidade/semana3/1.png", "capturas/2024/7- Julho/11- Contabilidade/semana3/2.png", "capturas/2024/7- Julho/11- Contabilidade/semana3/3.png"] },
 
 
             // { data: "", captura: ["", "", ""] },
         ],
-    },
 
-    URPG12: {
         Almoxarifado: [
             { data: "19/07/2024", captura: ["capturas/2024/7- Julho/12- Almoxarifado/semana3/1.png", "capturas/2024/7- Julho/12- Almoxarifado/semana3/2..png", "capturas/2024/7- Julho/12- Almoxarifado/semana3/3.png"] },
 
 
             // { data: "", captura: ["", "", ""] },
         ],
-    },
 
-    URPG13: {
         ComprasManutencao: [
             { data: "19/07/2024", captura: ["capturas/2024/7- Julho/13- Compras Manutenção/semana3/1.jpg", "capturas/2024/7- Julho/13- Compras Manutenção/semana3/2.jpg", "capturas/2024/7- Julho/13- Compras Manutenção/semana3/3.jpg"] },
 
 
             // { data: "", captura: ["", "", ""] },
         ],
-    },
 
-    URPG14: {
         Recepcao: [
             { data: "19/07/2024", captura: ["capturas/2024/7- Julho/14- Recepção/semana3/1.png", "capturas/2024/7- Julho/14- Recepção/semana3/2.jpeg", "capturas/2024/7- Julho/14- Recepção/semana3/3.jpeg"] },
 
 
             // { data: "", captura: ["", "", ""] },
         ],
-    },
 
-    URPG15: {
         AssistenciaP: [
 
             // { data: "", captura: ["", "", ""] },
         ],
-    },
 
-    URPG16: {
         Financeiro: [
             { data: "19/07/2024", captura: ["capturas/2024/7- Julho/16- Financeiro/semana3/PARTE 1.png", "capturas/2024/7- Julho/16- Financeiro/semana3/PARTE 2.jpg", "capturas/2024/7- Julho/16- Financeiro/semana3/PARTE 3.png"] },
 
@@ -250,6 +218,43 @@ const unidades = {
             // { data: "", captura: ["", "", ""] },
         ],
     },
+
+
+
+    URPG2: {
+        Geral: [
+
+            // { data: "", captura: ["", "", ""] },
+        ],
+    },
+
+    // URPG3: {},
+    //
+    // URPG4: {},
+    //
+    // URPG5: {},
+    //
+    // URPG6: {},
+    //
+    // URPG7: {},
+    //
+    // URPG8: {},
+    //
+    // URPG9: {},
+    //
+    // URPG10: {},
+    //
+    // URPG11: {},
+    //
+    // URPG12: {},
+    //
+    // URPG13: {},
+    //
+    // URPG14: {},
+    //
+    // URPG15: {},
+    //
+    // URPG16: {},
 
 };
 
@@ -273,7 +278,6 @@ function exibirInformação(unidade) {
 
     // Função para exibir as imagens
     function exibirImagens() {
-        
 
         for (let i = 0; i < capturas.length; i++) {
             let dataFormatada = capturas[i].data.split('/').reverse().join('-');

@@ -41,7 +41,10 @@
         <section id="inicio"><h5 class="titulo__h5">RETRABALHOS</h5>
 
             <nav class="inicial__menu">
-                <a class="link__menu" href="#URPG1">TRANSPORTE</a>
+                <a class="link__menu" href="#URPG1">ADMINISTRATIVO</a>
+                <a class="link__menu" href="#URPG2">GRÁFICO GERAL</a>
+
+<!--            <a class="link__menu" href="#URPG1">TRANSPORTE</a>
                 <a class="link__menu" href="#URPG2">PCP</a>
                 <a class="link__menu" href="#URPG3">T.I</a>
                 <a class="link__menu" href="#URPG4">CADASTRO KBM</a>
@@ -57,6 +60,7 @@
                 <a class="link__menu" href="#URPG14">RECEPÇÃO</a>
                 <a class="link__menu" href="#URPG15">ASSISTÊNCIA TÉCNICA (PRODUÇÃO)</a>
                 <a class="link__menu" href="#URPG16">FINANCEIRO</a>
+-->
             </nav>
 
             <article id="URPG1" class="unidade">
@@ -80,6 +84,21 @@
                                 <select class="select__" id="setorSelect_URPG1" onchange="atualizarInputData('URPG1')">
                                     <option class="option__" ></option>
                                     <option class="option__" value="Transporte">Transporte</option>
+                                    <option class="option__" value="Pcp">PCP</option>
+                                    <option class="option__" value="ti">T.I</option>
+                                    <option class="option__" value="Cadastro">Cadastro</option>
+                                    <option class="option__" value="Comercial">Comercial</option>
+                                    <option class="option__" value="Compras">Compras</option>
+                                    <option class="option__" value="Design">Design</option>
+                                    <option class="option__" value="AssistenciaC">Assistência T. Comercial </option>
+                                    <option class="option__" value="Custos">Custos</option>
+                                    <option class="option__" value="Programacao">Programação</option>
+                                    <option class="option__" value="Contabilidade">Contabilidade</option>
+                                    <option class="option__" value="Almoxarifado">Almoxarifado</option>
+                                    <option class="option__" value="ComprasManutencao">Compras manutenção</option>
+                                    <option class="option__" value="Recepcao">Recepção</option>
+                                    <option class="option__" value="AssistenciaP">Assistência T. Produção</option>
+                                    <option class="option__" value="Financeiro">Financeiro</option>
                                 </select>                    
                             </div>
                     
@@ -124,7 +143,7 @@
                                 <label class="label__" for="setorSelect_URPG2">Selecione um setor:</label> 
                                 <select class="select__" id="setorSelect_URPG2" onchange="atualizarInputData('URPG2')">
                                     <option class="option__" ></option>
-                                    <option class="option__" value="Pcp">PCP</option>
+                                    <option class="option__" value="Geral">Gráfico Geral</option>
                                 </select>                    
                             </div>
                     
@@ -149,7 +168,7 @@
                 
             </article>
 
-            <article id="URPG3" class="unidade">
+<!--            <article id="URPG3" class="unidade">
                 <h6 class="titulo_h6 ocultar">T.I - Gilberto Rocha</h6>
                 <div class="centralizar estilo__carregando" id="loadingMessage_URPG3">
                     <div class="spinner-border text-success" role="status">
@@ -160,19 +179,19 @@
                 <div class="setores centralizar">
                     <div>
                         <div class="centralizar ocultar">
-                            <label class="label__ " for="dataInput_URPG3">Selecione uma data:</label> 
+                            <label class="label__ " for="dataInput_URPG3">Selecione uma data:</label>
                             <input class="input__" type="date" id="dataInput_URPG3">
                         </div>
-                        
+
 
                             <div class="centralizar ocultar">
-                                <label class="label__" for="setorSelect_URPG3">Selecione um setor:</label> 
+                                <label class="label__" for="setorSelect_URPG3">Selecione um setor:</label>
                                 <select class="select__" id="setorSelect_URPG3" onchange="atualizarInputData('URPG3')">
                                     <option class="option__" ></option>
-                                    <option class="option__" value="ti">T.I</option>
-                                </select>                    
+
+                                </select>
                             </div>
-                    
+
 
                         <div id="detalhesContainer_URPG3" class="estilo__detalhes"></div>
 
@@ -188,10 +207,10 @@
                         </div>
 
                         <div id="detalhesContainer_alert_URPG3" class="centralizar estilo__alerta"></div>
-                        
+
                     </div>
                 </div>
-                
+
             </article>
 
             <article id="URPG4" class="unidade">
@@ -205,19 +224,19 @@
                 <div class="setores centralizar">
                     <div>
                         <div class="centralizar ocultar">
-                            <label class="label__ " for="dataInput_URPG4">Selecione uma data:</label> 
+                            <label class="label__ " for="dataInput_URPG4">Selecione uma data:</label>
                             <input class="input__" type="date" id="dataInput_URPG4">
                         </div>
-                        
+
 
                             <div class="centralizar ocultar">
-                                <label class="label__" for="setorSelect_URPG4">Selecione um setor:</label> 
+                                <label class="label__" for="setorSelect_URPG4">Selecione um setor:</label>
                                 <select class="select__" id="setorSelect_URPG4" onchange="atualizarInputData('URPG4')">
                                     <option class="option__" ></option>
-                                    <option class="option__" value="Cadastro">Cadastro</option>
-                                </select>                    
+
+                                </select>
                             </div>
-                    
+
 
                         <div id="detalhesContainer_URPG4" class="estilo__detalhes"></div>
 
@@ -233,10 +252,10 @@
                         </div>
 
                         <div id="detalhesContainer_alert_URPG4" class="centralizar estilo__alerta"></div>
-                        
+
                     </div>
                 </div>
-                
+
             </article>
 
             <article id="URPG5" class="unidade">
@@ -250,19 +269,19 @@
                 <div class="setores centralizar">
                     <div>
                         <div class="centralizar ocultar">
-                            <label class="label__ " for="dataInput_URPG5">Selecione uma data:</label> 
+                            <label class="label__ " for="dataInput_URPG5">Selecione uma data:</label>
                             <input class="input__" type="date" id="dataInput_URPG5">
                         </div>
-                        
+
 
                             <div class="centralizar ocultar">
-                                <label class="label__" for="setorSelect_URPG5">Selecione um setor:</label> 
+                                <label class="label__" for="setorSelect_URPG5">Selecione um setor:</label>
                                 <select class="select__" id="setorSelect_URPG5" onchange="atualizarInputData('URPG5')">
                                     <option class="option__" ></option>
-                                    <option class="option__" value="Comercial">Comercial</option>
-                                </select>                    
+
+                                </select>
                             </div>
-                    
+
 
                         <div id="detalhesContainer_URPG5" class="estilo__detalhes"></div>
 
@@ -278,10 +297,10 @@
                         </div>
 
                         <div id="detalhesContainer_alert_URPG5" class="centralizar estilo__alerta"></div>
-                        
+
                     </div>
                 </div>
-                
+
             </article>
 
             <article id="URPG6" class="unidade">
@@ -295,19 +314,19 @@
                 <div class="setores centralizar">
                     <div>
                         <div class="centralizar ocultar">
-                            <label class="label__ " for="dataInput_URPG6">Selecione uma data:</label> 
+                            <label class="label__ " for="dataInput_URPG6">Selecione uma data:</label>
                             <input class="input__" type="date" id="dataInput_URPG6">
                         </div>
-                        
+
 
                             <div class="centralizar ocultar">
-                                <label class="label__" for="setorSelect_URPG6">Selecione um setor:</label> 
+                                <label class="label__" for="setorSelect_URPG6">Selecione um setor:</label>
                                 <select class="select__" id="setorSelect_URPG6" onchange="atualizarInputData('URPG6')">
                                     <option class="option__" ></option>
-                                    <option class="option__" value="Compras">Compras</option>
-                                </select>                    
+
+                                </select>
                             </div>
-                    
+
 
                         <div id="detalhesContainer_URPG6" class="estilo__detalhes"></div>
 
@@ -323,10 +342,10 @@
                         </div>
 
                         <div id="detalhesContainer_alert_URPG6" class="centralizar estilo__alerta"></div>
-                        
+
                     </div>
                 </div>
-                
+
             </article>
 
             <article id="URPG7" class="unidade">
@@ -340,19 +359,19 @@
                 <div class="setores centralizar">
                     <div>
                         <div class="centralizar ocultar">
-                            <label class="label__ " for="dataInput_URPG7">Selecione uma data:</label> 
+                            <label class="label__ " for="dataInput_URPG7">Selecione uma data:</label>
                             <input class="input__" type="date" id="dataInput_URPG7">
                         </div>
-                        
+
 
                             <div class="centralizar ocultar">
-                                <label class="label__" for="setorSelect_URPG7">Selecione um setor:</label> 
+                                <label class="label__" for="setorSelect_URPG7">Selecione um setor:</label>
                                 <select class="select__" id="setorSelect_URPG7" onchange="atualizarInputData('URPG7')">
                                     <option class="option__" ></option>
-                                    <option class="option__" value="Design">Design</option>
-                                </select>                    
+
+                                </select>
                             </div>
-                    
+
 
                         <div id="detalhesContainer_URPG7" class="estilo__detalhes"></div>
 
@@ -368,10 +387,10 @@
                         </div>
 
                         <div id="detalhesContainer_alert_URPG7" class="centralizar estilo__alerta"></div>
-                        
+
                     </div>
                 </div>
-                
+
             </article>
 
             <article id="URPG8" class="unidade">
@@ -385,19 +404,19 @@
                 <div class="setores centralizar">
                     <div>
                         <div class="centralizar ocultar">
-                            <label class="label__ " for="dataInput_URPG8">Selecione uma data:</label> 
+                            <label class="label__ " for="dataInput_URPG8">Selecione uma data:</label>
                             <input class="input__" type="date" id="dataInput_URPG8">
                         </div>
-                        
+
 
                             <div class="centralizar ocultar">
-                                <label class="label__" for="setorSelect_URPG8">Selecione um setor:</label> 
+                                <label class="label__" for="setorSelect_URPG8">Selecione um setor:</label>
                                 <select class="select__" id="setorSelect_URPG8" onchange="atualizarInputData('URPG8')">
                                     <option class="option__" ></option>
-                                    <option class="option__" value="AssistenciaC">Assistência T. Comercial </option>
-                                </select>                    
+
+                                </select>
                             </div>
-                    
+
 
                         <div id="detalhesContainer_URPG8" class="estilo__detalhes"></div>
 
@@ -413,10 +432,10 @@
                         </div>
 
                         <div id="detalhesContainer_alert_URPG8" class="centralizar estilo__alerta"></div>
-                        
+
                     </div>
                 </div>
-                
+
             </article>
 
             <article id="URPG9" class="unidade">
@@ -430,19 +449,19 @@
                 <div class="setores centralizar">
                     <div>
                         <div class="centralizar ocultar">
-                            <label class="label__ " for="dataInput_URPG9">Selecione uma data:</label> 
+                            <label class="label__ " for="dataInput_URPG9">Selecione uma data:</label>
                             <input class="input__" type="date" id="dataInput_URPG9">
                         </div>
-                        
+
 
                             <div class="centralizar ocultar">
-                                <label class="label__" for="setorSelect_URPG9">Selecione um setor:</label> 
+                                <label class="label__" for="setorSelect_URPG9">Selecione um setor:</label>
                                 <select class="select__" id="setorSelect_URPG9" onchange="atualizarInputData('URPG9')">
                                     <option class="option__" ></option>
-                                    <option class="option__" value="Custos">Custos</option>
-                                </select>                    
+
+                                </select>
                             </div>
-                    
+
 
                         <div id="detalhesContainer_URPG9" class="estilo__detalhes"></div>
 
@@ -458,10 +477,10 @@
                         </div>
 
                         <div id="detalhesContainer_alert_URPG9" class="centralizar estilo__alerta"></div>
-                        
+
                     </div>
                 </div>
-                
+
             </article>
 
             <article id="URPG10" class="unidade">
@@ -484,7 +503,7 @@
                                 <label class="label__" for="setorSelect_URPG10">Selecione um setor:</label>
                                 <select class="select__" id="setorSelect_URPG10" onchange="atualizarInputData('URPG10')">
                                     <option class="option__" ></option>
-                                    <option class="option__" value="Programacao">Programação</option>
+
                                 </select>
                             </div>
 
@@ -529,7 +548,7 @@
                                 <label class="label__" for="setorSelect_URPG11">Selecione um setor:</label>
                                 <select class="select__" id="setorSelect_URPG11" onchange="atualizarInputData('URPG11')">
                                     <option class="option__" ></option>
-                                    <option class="option__" value="Contabilidade">Contabilidade</option>
+
                                 </select>
                             </div>
 
@@ -574,7 +593,7 @@
                                 <label class="label__" for="setorSelect_URPG12">Selecione um setor:</label>
                                 <select class="select__" id="setorSelect_URPG12" onchange="atualizarInputData('URPG12')">
                                     <option class="option__" ></option>
-                                    <option class="option__" value="Almoxarifado">Almoxarifado</option>
+
                                 </select>
                             </div>
 
@@ -619,7 +638,7 @@
                                 <label class="label__" for="setorSelect_URPG13">Selecione um setor:</label>
                                 <select class="select__" id="setorSelect_URPG13" onchange="atualizarInputData('URPG13')">
                                     <option class="option__" ></option>
-                                    <option class="option__" value="ComprasManutencao">Compras manutenção</option>
+
                                 </select>
                             </div>
 
@@ -664,7 +683,7 @@
                                 <label class="label__" for="setorSelect_URPG14">Selecione um setor:</label>
                                 <select class="select__" id="setorSelect_URPG14" onchange="atualizarInputData('URPG14')">
                                     <option class="option__" ></option>
-                                    <option class="option__" value="Recepcao">Recepção</option>
+
                                 </select>
                             </div>
 
@@ -709,7 +728,7 @@
                                 <label class="label__" for="setorSelect_URPG15">Selecione um setor:</label>
                                 <select class="select__" id="setorSelect_URPG15" onchange="atualizarInputData('URPG15')">
                                     <option class="option__" ></option>
-                                    <option class="option__" value="AssistenciaP">Assistência T. Produção</option>
+
                                 </select>
                             </div>
 
@@ -754,7 +773,7 @@
                                 <label class="label__" for="setorSelect_URPG16">Selecione um setor:</label>
                                 <select class="select__" id="setorSelect_URPG16" onchange="atualizarInputData('URPG16')">
                                     <option class="option__" ></option>
-                                    <option class="option__" value="Financeiro">Financeiro</option>
+
                                 </select>
                             </div>
 
@@ -778,6 +797,7 @@
                 </div>
 
             </article>
+-->
 
         </section>
         
