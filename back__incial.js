@@ -262,6 +262,7 @@ const unidades = {
         Geral: [
             { data: "26/07/2024", captura: ["capturas/2024/7- Julho/17- Geral/Semana 4/geral.jpeg"] },
             { data: "01/08/2024", captura: ["capturas/2024/7- Julho/17- Geral/Semana 5/geral.jpeg"] },
+            { data: "08/08/2024", captura: ["capturas/2024/8- Agosto/17- Geral/Semana 1/1.jpeg"] },
 
 
             // { data: "", captura: [""] },
