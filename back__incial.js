@@ -168,7 +168,7 @@ const unidades = {
             { data: "19/07/2024", captura: ["capturas/2024/7- Julho/7- Design/semana3/01.png", "capturas/2024/7- Julho/7- Design/semana3/2.jpeg", "capturas/2024/7- Julho/7- Design/semana3/3.jpeg"] },
             { data: "26/07/2024", captura: ["capturas/2024/7- Julho/7- Design/semana4/1.jpeg", "capturas/2024/7- Julho/7- Design/semana4/2.jpeg", "capturas/2024/7- Julho/7- Design/semana4/3.jpeg"] },
             { data: "01/08/2024", captura: ["capturas/2024/7- Julho/7- Design/semana5/1.jpg", "capturas/2024/7- Julho/7- Design/semana5/2.jpg", "capturas/2024/7- Julho/7- Design/semana5/3.jpg"] },
-            { data: "08/08/2024", captura: ["capturas/2024/8- Agosto/7- Design/semana1/01.jpg", "capturas/2024/8- Agosto/7- Design/semana1/02.jpg", "capturas/2024/8- Agosto/7- Design/semana1/03.jpg"] },
+            { data: "08/08/2024", captura: ["capturas/2024/8- Agosto/7- Design/semana1/02.jpg", "capturas/2024/8- Agosto/7- Design/semana1/03.jpg", "capturas/2024/8- Agosto/7- Design/semana1/01.jpg"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
