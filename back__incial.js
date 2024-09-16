@@ -269,7 +269,7 @@ const unidades = {
             { data: "15/08/2024", captura: ["capturas/2024/8- Agosto/12- Almoxarifado/semana3/1.png", "capturas/2024/8- Agosto/12- Almoxarifado/semana3/2.png", "capturas/2024/8- Agosto/12- Almoxarifado/semana3/3.png"] },
             { data: "29/08/2024", captura: ["capturas/2024/8- Agosto/12- Almoxarifado/semana5/Captura de tela 2024-08-29 132608.png", "capturas/2024/8- Agosto/12- Almoxarifado/semana5/Captura de tela 2024-08-29 1401542.png", "capturas/2024/8- Agosto/12- Almoxarifado/semana5/Captura de tela 2024-08-29 132805.png"] },
             { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/12- Almoxarifado/semana1/1.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana1/2.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana1/3.png"] },
-            { data: "12/09/2024", captura: ["capturas/2024/9- Setembro/12- Almoxarifado/semana2/1.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana2/2.png"] },
+            { data: "12/09/2024", captura: ["capturas/2024/9- Setembro/12- Almoxarifado/semana2/1.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana2/2.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana2/3.png"] }
 
 
             // { data: "", captura: ["", "", "", ""] },
