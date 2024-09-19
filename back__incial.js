@@ -118,6 +118,7 @@ const unidades = {
             { data: "29/08/2024", captura: ["capturas/2024/8- Agosto/1- Transporte/semana4/1.jpeg", "capturas/2024/8- Agosto/1- Transporte/semana4/2.jpeg", "capturas/2024/8- Agosto/1- Transporte/semana4/3.jpeg"] },
             { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/1- Transporte/semana1/PRINT 1.jpg", "capturas/2024/9- Setembro/1- Transporte/semana1/PRINT 2.jpg", "capturas/2024/9- Setembro/1- Transporte/semana1/PRINT 3.jpg"] },
             { data: "12/09/2024", captura: ["capturas/2024/9- Setembro/1- Transporte/semana2/1.jpg", "capturas/2024/9- Setembro/1- Transporte/semana2/2.jpg", "capturas/2024/9- Setembro/1- Transporte/semana2/3.jpg"] },
+            { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/1- Transporte/semana3/1.jpg", "capturas/2024/9- Setembro/1- Transporte/semana3/2.jpg", "capturas/2024/9- Setembro/1- Transporte/semana3/3.jpg"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
@@ -133,6 +134,7 @@ const unidades = {
             { data: "29/08/2024", captura: ["capturas/2024/8- Agosto/2 -Pcp/semana5/WhatsApp Image 2024-08-30 at 07.05.40.jpeg", "capturas/2024/8- Agosto/2 -Pcp/semana5/WhatsApp Image 2024-08-30 at 07.06.14.jpeg", "capturas/2024/8- Agosto/2 -Pcp/semana5/WhatsApp Image 2024-08-30 at 07.07.10.jpeg"] },
             { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/2 -Pcp/semana1/1.jpeg", "capturas/2024/9- Setembro/2 -Pcp/semana1/2.jpeg", "capturas/2024/9- Setembro/2 -Pcp/semana1/3.jpeg"] },
             { data: "12/09/2024", captura: ["capturas/2024/9- Setembro/2 -Pcp/semana2/1.jpeg", "capturas/2024/9- Setembro/2 -Pcp/semana2/2.jpeg", "capturas/2024/9- Setembro/2 -Pcp/semana2/3.jpeg"] },
+            { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/2 -Pcp/semana3/1.jpeg", "capturas/2024/9- Setembro/2 -Pcp/semana3/2.jpeg", "capturas/2024/9- Setembro/2 -Pcp/semana3/3.jpeg"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
@@ -153,6 +155,7 @@ const unidades = {
             { data: "29/08/2024", captura: ["capturas/2024/8- Agosto/4- Cadastro - Kbm/semana4/pt 01 23 à 29-08.png", "capturas/2024/8- Agosto/4- Cadastro - Kbm/semana4/pt 02 23 à 29-08.png", "capturas/2024/8- Agosto/4- Cadastro - Kbm/semana4/pt 03 23 à 29-08.png"] },
             { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/4- Cadastro - Kbm/semana1/pt 01 30-08 à 05-09.png", "capturas/2024/9- Setembro/4- Cadastro - Kbm/semana1/pt 02 30-08 à 05-09.png", "capturas/2024/9- Setembro/4- Cadastro - Kbm/semana1/pt 03 30-08 à 05-09.png"] },
             { data: "12/09/2024", captura: ["capturas/2024/9- Setembro/4- Cadastro - Kbm/semana2/1 pt 06 à 12-09.png", "capturas/2024/9- Setembro/4- Cadastro - Kbm/semana2/2 pt 06 à 12-09.png", "capturas/2024/9- Setembro/4- Cadastro - Kbm/semana2/3 pt 06 à 12-09.png"] },
+            { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/4- Cadastro - Kbm/semana3/pt 01 13 à 19-09.png", "capturas/2024/9- Setembro/4- Cadastro - Kbm/semana3/pt 02 13 à 19-09.png", "capturas/2024/9- Setembro/4- Cadastro - Kbm/semana3/pt 03 13 à 19-09.png"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
@@ -168,6 +171,7 @@ const unidades = {
             { data: "29/08/2024", captura: ["capturas/2024/8- Agosto/5- Comercial/semana4/1.jpeg", "capturas/2024/8- Agosto/5- Comercial/semana4/2.jpeg", "capturas/2024/8- Agosto/5- Comercial/semana4/3.jpeg"] },
             { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/5- Comercial/semana1/PRINT 01.png", "capturas/2024/9- Setembro/5- Comercial/semana1/PRINT 02.png", "capturas/2024/9- Setembro/5- Comercial/semana1/PRINT 03.png"] },
             { data: "12/09/2024", captura: ["capturas/2024/9- Setembro/5- Comercial/semana2/PRINT 01.png", "capturas/2024/9- Setembro/5- Comercial/semana2/PRINT 02.png", "capturas/2024/9- Setembro/5- Comercial/semana2/PRINT 03.png"] },
+            { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/5- Comercial/semana3/PRINT 01.png", "capturas/2024/9- Setembro/5- Comercial/semana3/PRINT 02.png", "capturas/2024/9- Setembro/5- Comercial/semana3/PRINT 03.png"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
@@ -183,6 +187,7 @@ const unidades = {
             { data: "29/08/2024", captura: ["capturas/2024/8- Agosto/6- Compras/semana5/Print 01.png", "capturas/2024/8- Agosto/6- Compras/semana5/Print 02.png", "capturas/2024/8- Agosto/6- Compras/semana5/Print 03.png"] },
             { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/6- Compras/semana1/Print 01.png", "capturas/2024/9- Setembro/6- Compras/semana1/Print 02.png", "capturas/2024/9- Setembro/6- Compras/semana1/Print 03.png"] },
             { data: "12/09/2024", captura: ["capturas/2024/9- Setembro/6- Compras/semana2/Print 01.png", "capturas/2024/9- Setembro/6- Compras/semana2/Print 02.png", "capturas/2024/9- Setembro/6- Compras/semana2/Print 03.png"] },
+            { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/6- Compras/semana3/Print 01.png", "capturas/2024/9- Setembro/6- Compras/semana3/Print 02.png", "capturas/2024/9- Setembro/6- Compras/semana3/Print 03.png"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
@@ -198,6 +203,7 @@ const unidades = {
             { data: "29/08/2024", captura: ["capturas/2024/8- Agosto/7- Design/semana4/01.jpg", "capturas/2024/8- Agosto/7- Design/semana4/02.jpg", "capturas/2024/8- Agosto/7- Design/semana4/03.jpg"] },
             { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/7- Design/semana1/01.jpg", "capturas/2024/9- Setembro/7- Design/semana1/02.jpg", "capturas/2024/9- Setembro/7- Design/semana1/03.jpg"] },
             { data: "12/09/2024", captura: ["capturas/2024/9- Setembro/7- Design/semana2/01.jpg", "capturas/2024/9- Setembro/7- Design/semana2/02.jpg", "capturas/2024/9- Setembro/7- Design/semana2/03.jpg"] },
+            { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/7- Design/semana2/01.jpg", "capturas/2024/9- Setembro/7- Design/semana2/02.jpg", "capturas/2024/9- Setembro/7- Design/semana2/03.jpg"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
@@ -213,6 +219,7 @@ const unidades = {
             { data: "29/08/2024", captura: ["capturas/2024/8- Agosto/8- Assistência Comercial/semana4/1.jpeg", "capturas/2024/8- Agosto/8- Assistência Comercial/semana4/2.jpeg", "capturas/2024/8- Agosto/8- Assistência Comercial/semana4/3.jpeg"] },
             { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/8- Assistência Comercial/semana1/1.jpeg", "capturas/2024/9- Setembro/8- Assistência Comercial/semana1/2.jpeg", "capturas/2024/9- Setembro/8- Assistência Comercial/semana1/3.jpeg"] },
             { data: "12/09/2024", captura: ["capturas/2024/9- Setembro/8- Assistência Comercial/semana2/1.jpeg", "capturas/2024/9- Setembro/8- Assistência Comercial/semana2/2.jpeg"] },
+            { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/9- Custos/semana3/01.png", "capturas/2024/9- Setembro/9- Custos/semana3/02.png", "capturas/2024/9- Setembro/9- Custos/semana3/03.png"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
@@ -229,6 +236,7 @@ const unidades = {
             { data: "29/08/2024", captura: ["capturas/2024/8- Agosto/9- Custos/semana5/01.png", "capturas/2024/8- Agosto/9- Custos/semana5/02.png", "capturas/2024/8- Agosto/9- Custos/semana5/03.png"] },
             { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/9- Custos/semana1/01.png", "capturas/2024/9- Setembro/9- Custos/semana1/02.png", "capturas/2024/9- Setembro/9- Custos/semana1/03.png"] },
             { data: "12/09/2024", captura: ["capturas/2024/9- Setembro/9- Custos/semana2/01..png", "capturas/2024/9- Setembro/9- Custos/semana2/02.png", "capturas/2024/9- Setembro/9- Custos/semana2/03.png"] },
+            { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/9- Custos/semana3/01.png", "capturas/2024/9- Setembro/9- Custos/semana3/02.png", "capturas/2024/9- Setembro/9- Custos/semana3/03.png"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
@@ -243,6 +251,7 @@ const unidades = {
             { data: "22/08/2024", captura: ["capturas/2024/8- Agosto/10- Programação/semana4/1.jpeg", "capturas/2024/8- Agosto/10- Programação/semana4/2.jpeg", "capturas/2024/8- Agosto/10- Programação/semana4/3.jpeg"] },
             { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/10- Programação/semana1/1.png", "capturas/2024/9- Setembro/10- Programação/semana1/2.png", "capturas/2024/9- Setembro/10- Programação/semana1/3.png"] },
             { data: "12/09/2024", captura: ["capturas/2024/9- Setembro/10- Programação/semana2/1.png", "capturas/2024/9- Setembro/10- Programação/semana2/2.png", "capturas/2024/9- Setembro/10- Programação/semana2/3.png"] },
+            { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/10- Programação/semana3/1.png", "capturas/2024/9- Setembro/10- Programação/semana3/2.png", "capturas/2024/9- Setembro/10- Programação/semana3/3.png"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
@@ -269,7 +278,8 @@ const unidades = {
             { data: "15/08/2024", captura: ["capturas/2024/8- Agosto/12- Almoxarifado/semana3/1.png", "capturas/2024/8- Agosto/12- Almoxarifado/semana3/2.png", "capturas/2024/8- Agosto/12- Almoxarifado/semana3/3.png"] },
             { data: "29/08/2024", captura: ["capturas/2024/8- Agosto/12- Almoxarifado/semana5/Captura de tela 2024-08-29 132608.png", "capturas/2024/8- Agosto/12- Almoxarifado/semana5/Captura de tela 2024-08-29 1401542.png", "capturas/2024/8- Agosto/12- Almoxarifado/semana5/Captura de tela 2024-08-29 132805.png"] },
             { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/12- Almoxarifado/semana1/1.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana1/2.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana1/3.png"] },
-            { data: "12/09/2024", captura: ["capturas/2024/9- Setembro/12- Almoxarifado/semana2/1.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana2/2.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana2/3.png"] }
+            { data: "12/09/2024", captura: ["capturas/2024/9- Setembro/12- Almoxarifado/semana2/1.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana2/2.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana2/3.png"] },
+            { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/12- Almoxarifado/semana3/1.jpeg", "capturas/2024/9- Setembro/12- Almoxarifado/semana3/2.jpeg", "capturas/2024/9- Setembro/12- Almoxarifado/semana3/3.jpeg"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
@@ -281,6 +291,7 @@ const unidades = {
             { data: "01/08/2024", captura: ["capturas/2024/7- Julho/13- Compras Manutenção/semana5/1.png", "capturas/2024/7- Julho/13- Compras Manutenção/semana5/2.png", "capturas/2024/7- Julho/13- Compras Manutenção/semana5/3.png"] },
             { data: "08/08/2024", captura: ["capturas/2024/8- Agosto/13- Compras Manutenção/semana1/1.png", "capturas/2024/8- Agosto/13- Compras Manutenção/semana1/2.png", "capturas/2024/8- Agosto/13- Compras Manutenção/semana1/3.png"] },
             { data: "23/08/2024", captura: ["capturas/2024/8- Agosto/13- Compras Manutenção/semana3/1.png", "capturas/2024/8- Agosto/13- Compras Manutenção/semana3/2.png", "capturas/2024/8- Agosto/13- Compras Manutenção/semana3/3.png"] },
+
 
             // { data: "", captura: ["", "", "", ""] },
         ],
@@ -308,6 +319,7 @@ const unidades = {
             { data: "29/08/2024", captura: ["capturas/2024/8- Agosto/16- Financeiro/semana4/Parte 1.jpg", "capturas/2024/8- Agosto/16- Financeiro/semana4/Parte 2.jpg", "capturas/2024/8- Agosto/16- Financeiro/semana4/Parte 3.jpg"] },
             { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/16- Financeiro/semana1/Parte 1.jpg", "capturas/2024/9- Setembro/16- Financeiro/semana1/Parte 2.jpg", "capturas/2024/9- Setembro/16- Financeiro/semana1/Parte 3.jpg"] },
             { data: "12/09/2024", captura: ["capturas/2024/9- Setembro/16- Financeiro/semana2/Part 1.jpg", "capturas/2024/9- Setembro/16- Financeiro/semana2/Part 2.jpg", "capturas/2024/9- Setembro/16- Financeiro/semana2/Part 3.jpg"] },
+            { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/16- Financeiro/semana3/Parte 1.jpg", "capturas/2024/9- Setembro/16- Financeiro/semana3/Parte 2.jpeg", "capturas/2024/9- Setembro/16- Financeiro/semana3/Parte 3.jpg"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
@@ -324,6 +336,7 @@ const unidades = {
             { data: "29/08/2024", captura: ["capturas/2024/8- Agosto/17- Geral/Semana 5/1.jpeg", "fraseGeral.png"] },
             { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/17- Geral/Semana 1/1.jpeg", "fraseGeral.png"] },
             { data: "13/09/2024", captura: ["capturas/2024/9- Setembro/17- Geral/Semana 2/geral.png", "fraseGeral.png"] },
+            { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/17- Geral/Semana 3/geral.jpeg", "fraseGeral.png"] },
 
 
             // { data: "", captura: ["", "fraseGeral.png"] },
