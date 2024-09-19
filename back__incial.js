@@ -219,7 +219,7 @@ const unidades = {
             { data: "29/08/2024", captura: ["capturas/2024/8- Agosto/8- Assistência Comercial/semana4/1.jpeg", "capturas/2024/8- Agosto/8- Assistência Comercial/semana4/2.jpeg", "capturas/2024/8- Agosto/8- Assistência Comercial/semana4/3.jpeg"] },
             { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/8- Assistência Comercial/semana1/1.jpeg", "capturas/2024/9- Setembro/8- Assistência Comercial/semana1/2.jpeg", "capturas/2024/9- Setembro/8- Assistência Comercial/semana1/3.jpeg"] },
             { data: "12/09/2024", captura: ["capturas/2024/9- Setembro/8- Assistência Comercial/semana2/1.jpeg", "capturas/2024/9- Setembro/8- Assistência Comercial/semana2/2.jpeg"] },
-            { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/9- Custos/semana3/01.png", "capturas/2024/9- Setembro/9- Custos/semana3/02.png", "capturas/2024/9- Setembro/9- Custos/semana3/03.png"] },
+            { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/8- Assistência Comercial/semana3/1.jpeg", "capturas/2024/9- Setembro/8- Assistência Comercial/semana3/2.jpeg", "capturas/2024/9- Setembro/8- Assistência Comercial/semana3/3.jpeg"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
