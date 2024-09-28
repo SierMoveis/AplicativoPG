@@ -225,7 +225,7 @@ const unidades = {
             { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/8- Assistência Comercial/semana1/1.jpeg", "capturas/2024/9- Setembro/8- Assistência Comercial/semana1/2.jpeg", "capturas/2024/9- Setembro/8- Assistência Comercial/semana1/3.jpeg"] },
             { data: "12/09/2024", captura: ["capturas/2024/9- Setembro/8- Assistência Comercial/semana2/1.jpeg", "capturas/2024/9- Setembro/8- Assistência Comercial/semana2/2.jpeg"] },
             { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/8- Assistência Comercial/semana3/1.jpeg", "capturas/2024/9- Setembro/8- Assistência Comercial/semana3/2.jpeg", "capturas/2024/9- Setembro/8- Assistência Comercial/semana3/3.jpeg"] },
-            { data: "25/09/2024", captura: ["capturas/2024/9- Setembro/8- Assistência Comercial/semana4/1.jpeg", "capturas/2024/9- Setembro/8- Assistência Comercial/semana4/2.jpeg"] },
+            { data: "25/09/2024", captura: ["capturas/2024/9- Setembro/8- Assistência Comercial/semana4/1.jpeg", "capturas/2024/9- Setembro/8- Assistência Comercial/semana4/2.jpeg", "capturas/2024/9- Setembro/8- Assistência Comercial/semana4/3.jpeg"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
@@ -259,7 +259,7 @@ const unidades = {
             { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/10- Programação/semana1/1.png", "capturas/2024/9- Setembro/10- Programação/semana1/2.png", "capturas/2024/9- Setembro/10- Programação/semana1/3.png"] },
             { data: "12/09/2024", captura: ["capturas/2024/9- Setembro/10- Programação/semana2/1.png", "capturas/2024/9- Setembro/10- Programação/semana2/2.png", "capturas/2024/9- Setembro/10- Programação/semana2/3.png"] },
             { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/10- Programação/semana3/1.png", "capturas/2024/9- Setembro/10- Programação/semana3/2.png", "capturas/2024/9- Setembro/10- Programação/semana3/3.png"] },
-            { data: "25/09/2024", captura: ["capturas/2024/9- Setembro/10- Programação/semana4/1.png", "capturas/2024/9- Setembro/10- Programação/semana4/2.png", "capturas/2024/9- Setembro/10- Programação/semana4/3.png"] },
+            { data: "25/09/2024", captura: ["capturas/2024/9- Setembro/10- Programação/semana4/1.png", "capturas/2024/9- Setembro/10- Programação/semana4/2.jpg", "capturas/2024/9- Setembro/10- Programação/semana4/3.jpg"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
@@ -289,7 +289,7 @@ const unidades = {
             { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/12- Almoxarifado/semana1/1.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana1/2.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana1/3.png"] },
             { data: "12/09/2024", captura: ["capturas/2024/9- Setembro/12- Almoxarifado/semana2/1.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana2/2.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana2/3.png"] },
             { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/12- Almoxarifado/semana3/1.jpeg", "capturas/2024/9- Setembro/12- Almoxarifado/semana3/2.jpeg", "capturas/2024/9- Setembro/12- Almoxarifado/semana3/3.jpeg"] },
-            { data: "25/09/2024", captura: ["capturas/2024/9- Setembro/12- Almoxarifado/semana4/1.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana4/2.png"] },
+            { data: "25/09/2024", captura: ["capturas/2024/9- Setembro/12- Almoxarifado/semana4/1.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana4/2.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana4/3.png"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
@@ -348,6 +348,7 @@ const unidades = {
             { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/17- Geral/Semana 1/1.jpeg", "fraseGeral.png"] },
             { data: "13/09/2024", captura: ["capturas/2024/9- Setembro/17- Geral/Semana 2/geral.png", "fraseGeral.png"] },
             { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/17- Geral/Semana 3/geral.jpeg", "fraseGeral.png"] },
+            { data: "25/09/2024", captura: ["capturas/2024/9- Setembro/17- Geral/Semana 4/geral.png", "fraseGeral.png"] },
 
 
             // { data: "", captura: ["", "fraseGeral.png"] },
