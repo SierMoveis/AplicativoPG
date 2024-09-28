@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+
+    <meta name="author" content="Gerson f. Ribeiro">
+
+    <link rel="shortcut icon" href="Logo_P&G.ico" type="image/x-icon">
+    <link rel="stylesheet" href="front__inicial.css">
+    <script src="back__incial.js"></script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <title>Retrabalhos</title>
+</head>
+<body>
+    <header class="inicial__hd ocultar">
+        <img style="height: 4rem;" id="logo" src="P&G_PQT.png" alt="LOGO">
+
+        <button id="open__menu">&#9776;</button>
+
+        <nav class="inicial__nv" id="bt__menu">
+            <button id="close__menu">X</button>
+            <a class="link__ centralizar" href="instruções.html">Instruções de uso</a>
+            <a class="link__ centralizar" href="index.html">Início</a>
+            <a class="link__ centralizar" href="Retrabalhos.html">Retrabalhos</a>
+            <a class="link__ centralizar" href="5sADM.html">5s Administrativo</a>
+        </nav>
+    </header>
+    
+    <main class="inicial__mn">
+        <section id="inicio"><h5 class="titulo__h5">5s ADMINISTRATIVO</h5>
+
+            <nav class="inicial__menu">
+                <a class="link__menu" href="#cinco_S">NOTAS</a>
+            </nav>
+
+            <article id="cinco_S" class="unidade">
+                <h6 class="titulo_h6 ocultar">RETRABALHOS</h6>
+                <div class="centralizar estilo__carregando" id="loadingMessage_cinco_S">
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+                <div class="setores centralizar">
+                    <div>
+                        <div class="centralizar ocultar">
+                            <label class="label__ " for="dataInput_cinco_S">Selecione uma data:</label> 
+                            <input class="input__" type="date" id="dataInput_cinco_S">
+                        </div>
+                        
+
+                            <div class="centralizar ocultar">
+                                <label class="label__" for="setorSelect_cinco_S">Selecione um setor:</label> 
+                                <select class="select__" id="setorSelect_cinco_S" onchange="atualizarInputData('cinco_S')">
+                                    <option class="option__" ></option>
+                                    <option class="option__" value="Transporte">Transporte</option>
+                                    <option class="option__" value="Pcp">PCP</option>
+                                    <option class="option__" value="ti">T.I</option>
+                                    <option class="option__" value="Cadastro">Cadastro</option>
+                                    <option class="option__" value="Comercial">Comercial</option>
+                                    <option class="option__" value="Compras">Compras</option>
+                                    <option class="option__" value="Design">Design</option>
+                                    <option class="option__" value="AssistenciaC">Assistência T. Comercial </option>
+                                    <option class="option__" value="Custos">Custos</option>
+                                    <option class="option__" value="Programacao">Programação</option>
+                                    <option class="option__" value="Contabilidade">Contabilidade</option>
+                                    <option class="option__" value="Almoxarifado">Almoxarifado</option>
+                                    <option class="option__" value="ComprasManutencao">Compras manutenção</option>
+                                    <option class="option__" value="Recepcao">Recepção</option>
+                                    <option class="option__" value="AssistenciaP">Assistência T. Produção</option>
+                                    <option class="option__" value="Financeiro">Financeiro</option>
+                                </select>                    
+                            </div>
+                    
+
+                        <div id="detalhesContainer_cinco_S" class="estilo__detalhes"></div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="diaAnterior('cinco_S')">⇽</button>
+                            <button class="botao__" onclick="exibirInformação('cinco_S')">🔍</button>
+                            <button class="botao__" onclick="proximoDia('cinco_S')">⇾</button>
+                        </div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="voltar('cinco_S')">Voltar</button>
+                            <button class="botao__" onclick="limparDetalhes('cinco_S')">Limpar</button>
+                        </div>
+
+                        <div id="detalhesContainer_alert_cinco_S" class="centralizar estilo__alerta"></div>
+                        
+                    </div>
+                </div>
+                
+            </article>
+
+            <article id="URPG2" class="unidade">
+                <h6 class="titulo_h6 ocultar">GRÁFICO GERAL</h6>
+                <div class="centralizar estilo__carregando" id="loadingMessage_URPG2">
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+                <div class="setores centralizar">
+                    <div>
+                        <div class="centralizar ocultar">
+                            <label class="label__ " for="dataInput_URPG2">Selecione uma data:</label> 
+                            <input class="input__" type="date" id="dataInput_URPG2">
+                        </div>
+                        
+
+                            <div class="centralizar ocultar">
+                                <label class="label__" for="setorSelect_URPG2">Selecione um setor:</label> 
+                                <select class="select__" id="setorSelect_URPG2" onchange="atualizarInputData('URPG2')">
+                                    <option class="option__" ></option>
+                                    <option class="option__" value="Geral">Gráfico Geral</option>
+                                </select>                    
+                            </div>
+                    
+
+                        <div id="detalhesContainer_URPG2" class="estilo__detalhes"></div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="diaAnterior('URPG2')">⇽</button>
+                            <button class="botao__" onclick="exibirInformação('URPG2')">🔍</button>
+                            <button class="botao__" onclick="proximoDia('URPG2')">⇾</button>
+                        </div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="voltar('URPG2')">Voltar</button>
+                            <button class="botao__" onclick="limparDetalhes('URPG2')">Limpar</button>
+                        </div>
+
+                        <div id="detalhesContainer_alert_URPG2" class="centralizar estilo__alerta"></div>
+                        
+                    </div>
+                </div>
+                
+            </article>
+
+<!--            <article id="URPG3" class="unidade">
+                <h6 class="titulo_h6 ocultar">T.I - Gilberto Rocha</h6>
+                <div class="centralizar estilo__carregando" id="loadingMessage_URPG3">
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+                <div class="setores centralizar">
+                    <div>
+                        <div class="centralizar ocultar">
+                            <label class="label__ " for="dataInput_URPG3">Selecione uma data:</label>
+                            <input class="input__" type="date" id="dataInput_URPG3">
+                        </div>
+
+
+                            <div class="centralizar ocultar">
+                                <label class="label__" for="setorSelect_URPG3">Selecione um setor:</label>
+                                <select class="select__" id="setorSelect_URPG3" onchange="atualizarInputData('URPG3')">
+                                    <option class="option__" ></option>
+
+                                </select>
+                            </div>
+
+
+                        <div id="detalhesContainer_URPG3" class="estilo__detalhes"></div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="diaAnterior('URPG3')">⇽</button>
+                            <button class="botao__" onclick="exibirInformação('URPG3')">🔍</button>
+                            <button class="botao__" onclick="proximoDia('URPG3')">⇾</button>
+                        </div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="voltar('URPG3')">Voltar</button>
+                            <button class="botao__" onclick="limparDetalhes('URPG3')">Limpar</button>
+                        </div>
+
+                        <div id="detalhesContainer_alert_URPG3" class="centralizar estilo__alerta"></div>
+
+                    </div>
+                </div>
+
+            </article>
+
+            <article id="URPG4" class="unidade">
+                <h6 class="titulo_h6 ocultar">CADASTRO KBM - Claudinei Silveira</h6>
+                <div class="centralizar estilo__carregando" id="loadingMessage_URPG4">
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+                <div class="setores centralizar">
+                    <div>
+                        <div class="centralizar ocultar">
+                            <label class="label__ " for="dataInput_URPG4">Selecione uma data:</label>
+                            <input class="input__" type="date" id="dataInput_URPG4">
+                        </div>
+
+
+                            <div class="centralizar ocultar">
+                                <label class="label__" for="setorSelect_URPG4">Selecione um setor:</label>
+                                <select class="select__" id="setorSelect_URPG4" onchange="atualizarInputData('URPG4')">
+                                    <option class="option__" ></option>
+
+                                </select>
+                            </div>
+
+
+                        <div id="detalhesContainer_URPG4" class="estilo__detalhes"></div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="diaAnterior('URPG4')">⇽</button>
+                            <button class="botao__" onclick="exibirInformação('URPG4')">🔍</button>
+                            <button class="botao__" onclick="proximoDia('URPG4')">⇾</button>
+                        </div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="voltar('URPG4')">Voltar</button>
+                            <button class="botao__" onclick="limparDetalhes('URPG4')">Limpar</button>
+                        </div>
+
+                        <div id="detalhesContainer_alert_URPG4" class="centralizar estilo__alerta"></div>
+
+                    </div>
+                </div>
+
+            </article>
+
+            <article id="URPG5" class="unidade">
+                <h6 class="titulo_h6 ocultar">COMERCIAL - Renata Modesto</h6>
+                <div class="centralizar estilo__carregando" id="loadingMessage_URPG5">
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+                <div class="setores centralizar">
+                    <div>
+                        <div class="centralizar ocultar">
+                            <label class="label__ " for="dataInput_URPG5">Selecione uma data:</label>
+                            <input class="input__" type="date" id="dataInput_URPG5">
+                        </div>
+
+
+                            <div class="centralizar ocultar">
+                                <label class="label__" for="setorSelect_URPG5">Selecione um setor:</label>
+                                <select class="select__" id="setorSelect_URPG5" onchange="atualizarInputData('URPG5')">
+                                    <option class="option__" ></option>
+
+                                </select>
+                            </div>
+
+
+                        <div id="detalhesContainer_URPG5" class="estilo__detalhes"></div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="diaAnterior('URPG5')">⇽</button>
+                            <button class="botao__" onclick="exibirInformação('URPG5')">🔍</button>
+                            <button class="botao__" onclick="proximoDia('URPG5')">⇾</button>
+                        </div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="voltar('URPG5')">Voltar</button>
+                            <button class="botao__" onclick="limparDetalhes('URPG5')">Limpar</button>
+                        </div>
+
+                        <div id="detalhesContainer_alert_URPG5" class="centralizar estilo__alerta"></div>
+
+                    </div>
+                </div>
+
+            </article>
+
+            <article id="URPG6" class="unidade">
+                <h6 class="titulo_h6 ocultar">COMPRAS - guilherme Bianchini</h6>
+                <div class="centralizar estilo__carregando" id="loadingMessage_URPG6">
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+                <div class="setores centralizar">
+                    <div>
+                        <div class="centralizar ocultar">
+                            <label class="label__ " for="dataInput_URPG6">Selecione uma data:</label>
+                            <input class="input__" type="date" id="dataInput_URPG6">
+                        </div>
+
+
+                            <div class="centralizar ocultar">
+                                <label class="label__" for="setorSelect_URPG6">Selecione um setor:</label>
+                                <select class="select__" id="setorSelect_URPG6" onchange="atualizarInputData('URPG6')">
+                                    <option class="option__" ></option>
+
+                                </select>
+                            </div>
+
+
+                        <div id="detalhesContainer_URPG6" class="estilo__detalhes"></div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="diaAnterior('URPG6')">⇽</button>
+                            <button class="botao__" onclick="exibirInformação('URPG6')">🔍</button>
+                            <button class="botao__" onclick="proximoDia('URPG6')">⇾</button>
+                        </div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="voltar('URPG6')">Voltar</button>
+                            <button class="botao__" onclick="limparDetalhes('URPG6')">Limpar</button>
+                        </div>
+
+                        <div id="detalhesContainer_alert_URPG6" class="centralizar estilo__alerta"></div>
+
+                    </div>
+                </div>
+
+            </article>
+
+            <article id="URPG7" class="unidade">
+                <h6 class="titulo_h6 ocultar">DESIGN - Valter Bicalho</h6>
+                <div class="centralizar estilo__carregando" id="loadingMessage_URPG7">
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+                <div class="setores centralizar">
+                    <div>
+                        <div class="centralizar ocultar">
+                            <label class="label__ " for="dataInput_URPG7">Selecione uma data:</label>
+                            <input class="input__" type="date" id="dataInput_URPG7">
+                        </div>
+
+
+                            <div class="centralizar ocultar">
+                                <label class="label__" for="setorSelect_URPG7">Selecione um setor:</label>
+                                <select class="select__" id="setorSelect_URPG7" onchange="atualizarInputData('URPG7')">
+                                    <option class="option__" ></option>
+
+                                </select>
+                            </div>
+
+
+                        <div id="detalhesContainer_URPG7" class="estilo__detalhes"></div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="diaAnterior('URPG7')">⇽</button>
+                            <button class="botao__" onclick="exibirInformação('URPG7')">🔍</button>
+                            <button class="botao__" onclick="proximoDia('URPG7')">⇾</button>
+                        </div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="voltar('URPG7')">Voltar</button>
+                            <button class="botao__" onclick="limparDetalhes('URPG7')">Limpar</button>
+                        </div>
+
+                        <div id="detalhesContainer_alert_URPG7" class="centralizar estilo__alerta"></div>
+
+                    </div>
+                </div>
+
+            </article>
+
+            <article id="URPG8" class="unidade">
+                <h6 class="titulo_h6 ocultar">ASSISTÊNCIA TÉCNICA - Jucimara Caneschi</h6>
+                <div class="centralizar estilo__carregando" id="loadingMessage_URPG8">
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+                <div class="setores centralizar">
+                    <div>
+                        <div class="centralizar ocultar">
+                            <label class="label__ " for="dataInput_URPG8">Selecione uma data:</label>
+                            <input class="input__" type="date" id="dataInput_URPG8">
+                        </div>
+
+
+                            <div class="centralizar ocultar">
+                                <label class="label__" for="setorSelect_URPG8">Selecione um setor:</label>
+                                <select class="select__" id="setorSelect_URPG8" onchange="atualizarInputData('URPG8')">
+                                    <option class="option__" ></option>
+
+                                </select>
+                            </div>
+
+
+                        <div id="detalhesContainer_URPG8" class="estilo__detalhes"></div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="diaAnterior('URPG8')">⇽</button>
+                            <button class="botao__" onclick="exibirInformação('URPG8')">🔍</button>
+                            <button class="botao__" onclick="proximoDia('URPG8')">⇾</button>
+                        </div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="voltar('URPG8')">Voltar</button>
+                            <button class="botao__" onclick="limparDetalhes('URPG8')">Limpar</button>
+                        </div>
+
+                        <div id="detalhesContainer_alert_URPG8" class="centralizar estilo__alerta"></div>
+
+                    </div>
+                </div>
+
+            </article>
+
+            <article id="URPG9" class="unidade">
+                <h6 class="titulo_h6 ocultar">CUSTOS - Larissa Souza</h6>
+                <div class="centralizar estilo__carregando" id="loadingMessage_URPG9">
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+                <div class="setores centralizar">
+                    <div>
+                        <div class="centralizar ocultar">
+                            <label class="label__ " for="dataInput_URPG9">Selecione uma data:</label>
+                            <input class="input__" type="date" id="dataInput_URPG9">
+                        </div>
+
+
+                            <div class="centralizar ocultar">
+                                <label class="label__" for="setorSelect_URPG9">Selecione um setor:</label>
+                                <select class="select__" id="setorSelect_URPG9" onchange="atualizarInputData('URPG9')">
+                                    <option class="option__" ></option>
+
+                                </select>
+                            </div>
+
+
+                        <div id="detalhesContainer_URPG9" class="estilo__detalhes"></div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="diaAnterior('URPG9')">⇽</button>
+                            <button class="botao__" onclick="exibirInformação('URPG9')">🔍</button>
+                            <button class="botao__" onclick="proximoDia('URPG9')">⇾</button>
+                        </div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="voltar('URPG9')">Voltar</button>
+                            <button class="botao__" onclick="limparDetalhes('URPG9')">Limpar</button>
+                        </div>
+
+                        <div id="detalhesContainer_alert_URPG9" class="centralizar estilo__alerta"></div>
+
+                    </div>
+                </div>
+
+            </article>
+
+            <article id="URPG10" class="unidade">
+                <h6 class="titulo_h6 ocultar">PROGRAMAÇÃO - Jefferson Fintelman</h6>
+                <div class="centralizar estilo__carregando" id="loadingMessage_URPG10">
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+                <div class="setores centralizar">
+                    <div>
+                        <div class="centralizar ocultar">
+                            <label class="label__ " for="dataInput_URPG10">Selecione uma data:</label>
+                            <input class="input__" type="date" id="dataInput_URPG10">
+                        </div>
+
+
+                            <div class="centralizar ocultar">
+                                <label class="label__" for="setorSelect_URPG10">Selecione um setor:</label>
+                                <select class="select__" id="setorSelect_URPG10" onchange="atualizarInputData('URPG10')">
+                                    <option class="option__" ></option>
+
+                                </select>
+                            </div>
+
+
+                        <div id="detalhesContainer_URPG10" class="estilo__detalhes"></div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="diaAnterior('URPG10')">⇽</button>
+                            <button class="botao__" onclick="exibirInformação('URPG10')">🔍</button>
+                            <button class="botao__" onclick="proximoDia('URPG10')">⇾</button>
+                        </div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="voltar('URPG10')">Voltar</button>
+                            <button class="botao__" onclick="limparDetalhes('URPG10')">Limpar</button>
+                        </div>
+
+                        <div id="detalhesContainer_alert_URPG10" class="centralizar estilo__alerta"></div>
+
+                    </div>
+                </div>
+
+            </article>
+
+            <article id="URPG11" class="unidade">
+                <h6 class="titulo_h6 ocultar">CONTABILIDADE - Cassio Casarim</h6>
+                <div class="centralizar estilo__carregando" id="loadingMessage_URPG11">
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+                <div class="setores centralizar">
+                    <div>
+                        <div class="centralizar ocultar">
+                            <label class="label__ " for="dataInput_URPG11">Selecione uma data:</label>
+                            <input class="input__" type="date" id="dataInput_URPG11">
+                        </div>
+
+
+                            <div class="centralizar ocultar">
+                                <label class="label__" for="setorSelect_URPG11">Selecione um setor:</label>
+                                <select class="select__" id="setorSelect_URPG11" onchange="atualizarInputData('URPG11')">
+                                    <option class="option__" ></option>
+
+                                </select>
+                            </div>
+
+
+                        <div id="detalhesContainer_URPG11" class="estilo__detalhes"></div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="diaAnterior('URPG11')">⇽</button>
+                            <button class="botao__" onclick="exibirInformação('URPG11')">🔍</button>
+                            <button class="botao__" onclick="proximoDia('URPG11')">⇾</button>
+                        </div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="voltar('URPG11')">Voltar</button>
+                            <button class="botao__" onclick="limparDetalhes('URPG11')">Limpar</button>
+                        </div>
+
+                        <div id="detalhesContainer_alert_URPG11" class="centralizar estilo__alerta"></div>
+
+                    </div>
+                </div>
+
+            </article>
+
+            <article id="URPG12" class="unidade">
+                <h6 class="titulo_h6 ocultar">ALMOXARIFADO - Júnior Padilha</h6>
+                <div class="centralizar estilo__carregando" id="loadingMessage_URPG12">
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+                <div class="setores centralizar">
+                    <div>
+                        <div class="centralizar ocultar">
+                            <label class="label__ " for="dataInput_URPG12">Selecione uma data:</label>
+                            <input class="input__" type="date" id="dataInput_URPG12">
+                        </div>
+
+
+                            <div class="centralizar ocultar">
+                                <label class="label__" for="setorSelect_URPG12">Selecione um setor:</label>
+                                <select class="select__" id="setorSelect_URPG12" onchange="atualizarInputData('URPG12')">
+                                    <option class="option__" ></option>
+
+                                </select>
+                            </div>
+
+
+                        <div id="detalhesContainer_URPG12" class="estilo__detalhes"></div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="diaAnterior('URPG12')">⇽</button>
+                            <button class="botao__" onclick="exibirInformação('URPG12')">🔍</button>
+                            <button class="botao__" onclick="proximoDia('URPG12')">⇾</button>
+                        </div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="voltar('URPG12')">Voltar</button>
+                            <button class="botao__" onclick="limparDetalhes('URPG12')">Limpar</button>
+                        </div>
+
+                        <div id="detalhesContainer_alert_URPG12" class="centralizar estilo__alerta"></div>
+
+                    </div>
+                </div>
+
+            </article>
+
+            <article id="URPG13" class="unidade">
+                <h6 class="titulo_h6 ocultar">COMPRAS (MANUTENÇÃO) - William Carvalho</h6>
+                <div class="centralizar estilo__carregando" id="loadingMessage_URPG13">
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+                <div class="setores centralizar">
+                    <div>
+                        <div class="centralizar ocultar">
+                            <label class="label__ " for="dataInput_URPG13">Selecione uma data:</label>
+                            <input class="input__" type="date" id="dataInput_URPG13">
+                        </div>
+
+
+                            <div class="centralizar ocultar">
+                                <label class="label__" for="setorSelect_URPG13">Selecione um setor:</label>
+                                <select class="select__" id="setorSelect_URPG13" onchange="atualizarInputData('URPG13')">
+                                    <option class="option__" ></option>
+
+                                </select>
+                            </div>
+
+
+                        <div id="detalhesContainer_URPG13" class="estilo__detalhes"></div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="diaAnterior('URPG13')">⇽</button>
+                            <button class="botao__" onclick="exibirInformação('URPG13')">🔍</button>
+                            <button class="botao__" onclick="proximoDia('URPG13')">⇾</button>
+                        </div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="voltar('URPG13')">Voltar</button>
+                            <button class="botao__" onclick="limparDetalhes('URPG13')">Limpar</button>
+                        </div>
+
+                        <div id="detalhesContainer_alert_URPG13" class="centralizar estilo__alerta"></div>
+
+                    </div>
+                </div>
+
+            </article>
+
+            <article id="URPG14" class="unidade">
+                <h6 class="titulo_h6 ocultar">RECEPÇÃO - Tamara  </h6>
+                <div class="centralizar estilo__carregando" id="loadingMessage_URPG14">
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+                <div class="setores centralizar">
+                    <div>
+                        <div class="centralizar ocultar">
+                            <label class="label__ " for="dataInput_URPG14">Selecione uma data:</label>
+                            <input class="input__" type="date" id="dataInput_URPG14">
+                        </div>
+
+
+                            <div class="centralizar ocultar">
+                                <label class="label__" for="setorSelect_URPG14">Selecione um setor:</label>
+                                <select class="select__" id="setorSelect_URPG14" onchange="atualizarInputData('URPG14')">
+                                    <option class="option__" ></option>
+
+                                </select>
+                            </div>
+
+
+                        <div id="detalhesContainer_URPG14" class="estilo__detalhes"></div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="diaAnterior('URPG14')">⇽</button>
+                            <button class="botao__" onclick="exibirInformação('URPG14')">🔍</button>
+                            <button class="botao__" onclick="proximoDia('URPG14')">⇾</button>
+                        </div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="voltar('URPG14')">Voltar</button>
+                            <button class="botao__" onclick="limparDetalhes('URPG14')">Limpar</button>
+                        </div>
+
+                        <div id="detalhesContainer_alert_URPG14" class="centralizar estilo__alerta"></div>
+
+                    </div>
+                </div>
+
+            </article>
+
+            <article id="URPG15" class="unidade">
+                <h6 class="titulo_h6 ocultar">ASSISTÊNCIA TÉCNICA (PRODUÇÃO) - Mateus Massa</h6>
+                <div class="centralizar estilo__carregando" id="loadingMessage_URPG15">
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+                <div class="setores centralizar">
+                    <div>
+                        <div class="centralizar ocultar">
+                            <label class="label__ " for="dataInput_URPG15">Selecione uma data:</label>
+                            <input class="input__" type="date" id="dataInput_URPG15">
+                        </div>
+
+
+                            <div class="centralizar ocultar">
+                                <label class="label__" for="setorSelect_URPG15">Selecione um setor:</label>
+                                <select class="select__" id="setorSelect_URPG15" onchange="atualizarInputData('URPG15')">
+                                    <option class="option__" ></option>
+
+                                </select>
+                            </div>
+
+
+                        <div id="detalhesContainer_URPG15" class="estilo__detalhes"></div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="diaAnterior('URPG15')">⇽</button>
+                            <button class="botao__" onclick="exibirInformação('URPG15')">🔍</button>
+                            <button class="botao__" onclick="proximoDia('URPG15')">⇾</button>
+                        </div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="voltar('URPG15')">Voltar</button>
+                            <button class="botao__" onclick="limparDetalhes('URPG15')">Limpar</button>
+                        </div>
+
+                        <div id="detalhesContainer_alert_URPG15" class="centralizar estilo__alerta"></div>
+
+                    </div>
+                </div>
+
+            </article>
+
+            <article id="URPG16" class="unidade">
+                <h6 class="titulo_h6 ocultar">financeiro - Jiane Duarte</h6>
+                <div class="centralizar estilo__carregando" id="loadingMessage_URPG16">
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+                <div class="setores centralizar">
+                    <div>
+                        <div class="centralizar ocultar">
+                            <label class="label__ " for="dataInput_URPG16">Selecione uma data:</label>
+                            <input class="input__" type="date" id="dataInput_URPG16">
+                        </div>
+
+
+                            <div class="centralizar ocultar">
+                                <label class="label__" for="setorSelect_URPG16">Selecione um setor:</label>
+                                <select class="select__" id="setorSelect_URPG16" onchange="atualizarInputData('URPG16')">
+                                    <option class="option__" ></option>
+
+                                </select>
+                            </div>
+
+
+                        <div id="detalhesContainer_URPG16" class="estilo__detalhes"></div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="diaAnterior('URPG16')">⇽</button>
+                            <button class="botao__" onclick="exibirInformação('URPG16')">🔍</button>
+                            <button class="botao__" onclick="proximoDia('URPG16')">⇾</button>
+                        </div>
+
+                        <div class="btt__nav">
+                            <button class="botao__" onclick="voltar('URPG16')">Voltar</button>
+                            <button class="botao__" onclick="limparDetalhes('URPG16')">Limpar</button>
+                        </div>
+
+                        <div id="detalhesContainer_alert_URPG16" class="centralizar estilo__alerta"></div>
+
+                    </div>
+                </div>
+
+            </article>
+-->
+
+        </section>
+        
+    </main>
+    
+    <footer class="inicial__ft">
+        <section>
+            <h6 class="centralizar">
+                <strong style="text-decoration: underline;">
+                    <a href="https://github.com/gersonfribeiro" target="_blank" style="text-decoration: underline; color: black;">By: Gerson f. Ribeiro - 2023</a>
+                </strong>
+            </h6>
+        </section>
+    </footer>
+</body>
+</html>
