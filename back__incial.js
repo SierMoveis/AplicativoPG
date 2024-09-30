@@ -319,7 +319,8 @@ const unidades = {
             { data: "29/08/2024", captura: ["capturas/2024/8- Agosto/16- Financeiro/semana4/Parte 1.jpg", "capturas/2024/8- Agosto/16- Financeiro/semana4/Parte 2.jpg", "capturas/2024/8- Agosto/16- Financeiro/semana4/Parte 3.jpg"] },
             { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/16- Financeiro/semana1/Parte 1.jpg", "capturas/2024/9- Setembro/16- Financeiro/semana1/Parte 2.jpg", "capturas/2024/9- Setembro/16- Financeiro/semana1/Parte 3.jpg"] },
             { data: "12/09/2024", captura: ["capturas/2024/9- Setembro/16- Financeiro/semana2/Part 1.jpg", "capturas/2024/9- Setembro/16- Financeiro/semana2/Part 2.jpg", "capturas/2024/9- Setembro/16- Financeiro/semana2/Part 3.jpg"] },
-            { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/16- Financeiro/semana3/Parte 1.jpg", "capturas/2024/9- Setembro/16- Financeiro/semana3/Parte 2.jpeg", "capturas/2024/9- Setembro/16- Financeiro/semana3/Parte 3.jpg"] },
+            { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/16- Financeiro/semana4/26 1PT.jpeg", "capturas/2024/9- Setembro/16- Financeiro/semana4/26 2PT.jpeg", "capturas/2024/9- Setembro/16- Financeiro/semana4/26 G.jpeg"] },
+        
 
 
             // { data: "", captura: ["", "", "", ""] },
