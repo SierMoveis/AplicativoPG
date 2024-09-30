@@ -344,9 +344,93 @@ const unidades = {
         ],
     },
 
-/*   
-    URPG3: {},
+     
+    cinco_s: {
+        Transporte: [
+            
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+
+        Pcp: [
+            
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+
+        ti: [
+
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+
+        Cadastro: [
+            
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+
+        Comercial: [
+            
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+
+        Compras: [
+            
+            // { data: "", captura: ["", "", "", ""] },
+
+        ],
+
+        Design: [
+
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+
+        AssistenciaC: [
+            
+            // { data: "", captura: ["", "", "", ""] },
+
+        ],
+
+        Custos: [
+            
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+
+        Programacao: [
+            
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+
+        Contabilidade: [
+            
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+
+        Almoxarifado: [
+            
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+
+        ComprasManutencao: [
+            
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+
+        Recepcao: [
+            
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+
+        AssistenciaP: [
+
+            // { data: "", captura: ["", "", "", ""] },
+        ],
+
+        Financeiro: [
+           
+            // { data: "", captura: ["", "", "", ""] },
+        ],
     
+    },
+
+/*  
      URPG4: {},
     
      URPG5: {},
