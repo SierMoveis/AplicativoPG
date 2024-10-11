@@ -205,7 +205,7 @@ const unidades = {
             { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/6- Compras/semana3/Print 01.png", "capturas/2024/9- Setembro/6- Compras/semana3/Print 02.png", "capturas/2024/9- Setembro/6- Compras/semana3/Print 03.png"] },
             { data: "25/09/2024", captura: ["capturas/2024/9- Setembro/6- Compras/semana4/Print 01.png", "capturas/2024/9- Setembro/6- Compras/semana4/Print 02.jpeg", "capturas/2024/9- Setembro/6- Compras/semana4/Print 03.png"] },
             { data: "03/10/2024", captura: ["capturas/2024/10- Outubro/6- Compras/semana1/Print 01.png", "capturas/2024/10- Outubro/6- Compras/semana1/Print 02.jpeg", "capturas/2024/10- Outubro/6- Compras/semana1/Print 03.png"] },
-            { data: "10/10/2024", captura: ["", "", ""] },
+            { data: "10/10/2024", captura: ["capturas/2024/10- Outubro/6- Compras/semana2/Print 01.png", "capturas/2024/10- Outubro/6- Compras/semana2/Print 02.jpeg", "capturas/2024/10- Outubro/6- Compras/semana2/Print 03.jpeg"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
