@@ -362,7 +362,7 @@ const unidades = {
             { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/16- Financeiro/semana3/Parte 1.jpg", "capturas/2024/9- Setembro/16- Financeiro/semana3/Parte 2.jpeg", "capturas/2024/9- Setembro/16- Financeiro/semana3/Parte 3.jpg"] },
             { data: "25/09/2024", captura: ["capturas/2024/9- Setembro/16- Financeiro/semana4/Parte 1.jpg", "capturas/2024/9- Setembro/16- Financeiro/semana4/Parte 2.jpg", "capturas/2024/9- Setembro/16- Financeiro/semana4/Parte 3.jpg"] },
             { data: "03/10/2024", captura: ["capturas/2024/10- Outubro/16- Financeiro/semana1/Parte 1.jpg", "capturas/2024/10- Outubro/16- Financeiro/semana1/Parte 2.jpg", "capturas/2024/10- Outubro/16- Financeiro/semana1/Parte 3.jpg"] },
-            { data: "10/10/2024", captura: ["NÃO FOI ENTREGUE"] },
+            { data: "10/10/2024", captura: ["capturas/2024/10- Outubro/16- Financeiro/semana2/Part 1.jpg", "capturas/2024/10- Outubro/16- Financeiro/semana2/Part 2.jpg", "capturas/2024/10- Outubro/16- Financeiro/semana2/Part 3.jpg"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
