@@ -315,7 +315,7 @@ const unidades = {
             { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/12- Almoxarifado/semana3/1.jpeg", "capturas/2024/9- Setembro/12- Almoxarifado/semana3/2.jpeg", "capturas/2024/9- Setembro/12- Almoxarifado/semana3/3.jpeg"] },
             { data: "25/09/2024", captura: ["capturas/2024/9- Setembro/12- Almoxarifado/semana4/1.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana4/2.png", "capturas/2024/9- Setembro/12- Almoxarifado/semana4/3.png"] },
             { data: "03/10/2024", captura: ["NÃO FOI ENTREGUE"] },
-            { data: "10/10/2024", captura: ["NÃO FOI ENTREGUE"] },
+            { data: "11/10/2024", captura: ["capturas/2024/10- Outubro/12- Almoxarifado/semana2/1.png", "capturas/2024/10- Outubro/12- Almoxarifado/semana2/2.png", "capturas/2024/10- Outubro/12- Almoxarifado/semana2/3.png"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
@@ -373,19 +373,19 @@ const unidades = {
         Geral: [
             { data: "26/07/2024", captura: ["capturas/2024/7- Julho/17- Geral/Semana 4/geral.jpeg"] },
             { data: "01/08/2024", captura: ["capturas/2024/7- Julho/17- Geral/Semana 5/geral.jpeg"] },
-            { data: "08/08/2024", captura: ["capturas/2024/8- Agosto/17- Geral/Semana 1/1.jpeg", "templates/static/images/fraseGeral.png"] },
-            { data: "15/08/2024", captura: ["capturas/2024/8- Agosto/17- Geral/Semana 3/1.png", "templates/static/images/fraseGeral.png"] },
-            { data: "23/08/2024", captura: ["capturas/2024/8- Agosto/17- Geral/Semana 4/1.jpeg", "templates/static/images/fraseGeral.png"] },
-            { data: "29/08/2024", captura: ["capturas/2024/8- Agosto/17- Geral/Semana 5/1.jpeg", "templates/static/images/fraseGeral.png"] },
-            { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/17- Geral/Semana 1/1.jpeg", "templates/static/images/fraseGeral.png"] },
-            { data: "13/09/2024", captura: ["capturas/2024/9- Setembro/17- Geral/Semana 2/geral.png", "templates/static/images/fraseGeral.png"] },
-            { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/17- Geral/Semana 3/geral.jpeg", "templates/static/images/fraseGeral.png"] },
-            { data: "25/09/2024", captura: ["capturas/2024/9- Setembro/17- Geral/Semana 4/geral.png", "templates/static/images/fraseGeral.png"] },
-            { data: "03/10/2024", captura: ["capturas/2024/10- Outubro/17- Geral/Semana 1/1.jpeg", "templates/static/images/fraseGeral.png"] },
-            { data: "10/10/2024", captura: ["capturas/2024/10- Outubro/17- Geral/Semana 2/geral.jpeg", "templates/static/images/fraseGeral.png"] },
+            { data: "08/08/2024", captura: ["capturas/2024/8- Agosto/17- Geral/Semana 1/1.jpeg", "images/fraseGeral.png"] },
+            { data: "15/08/2024", captura: ["capturas/2024/8- Agosto/17- Geral/Semana 3/1.png", "images/fraseGeral.png"] },
+            { data: "23/08/2024", captura: ["capturas/2024/8- Agosto/17- Geral/Semana 4/1.jpeg", "images/fraseGeral.png"] },
+            { data: "29/08/2024", captura: ["capturas/2024/8- Agosto/17- Geral/Semana 5/1.jpeg", "images/fraseGeral.png"] },
+            { data: "06/09/2024", captura: ["capturas/2024/9- Setembro/17- Geral/Semana 1/1.jpeg", "images/fraseGeral.png"] },
+            { data: "13/09/2024", captura: ["capturas/2024/9- Setembro/17- Geral/Semana 2/geral.png", "images/fraseGeral.png"] },
+            { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/17- Geral/Semana 3/geral.jpeg", "images/fraseGeral.png"] },
+            { data: "25/09/2024", captura: ["capturas/2024/9- Setembro/17- Geral/Semana 4/geral.png", "images/fraseGeral.png"] },
+            { data: "03/10/2024", captura: ["capturas/2024/10- Outubro/17- Geral/Semana 1/1.jpeg", "images/fraseGeral.png"] },
+            { data: "10/10/2024", captura: ["capturas/2024/10- Outubro/17- Geral/Semana 2/geral.jpeg", "images/fraseGeral.png"] },
 
 
-            // { data: "", captura: ["", "templates/static/images/fraseGeral.png"] },
+            // { data: "", captura: ["", "images/fraseGeral.png"] },
         ],
     },
 
