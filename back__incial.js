@@ -382,6 +382,7 @@ const unidades = {
             { data: "19/09/2024", captura: ["capturas/2024/9- Setembro/17- Geral/Semana 3/geral.jpeg", "fraseGeral.png"] },
             { data: "25/09/2024", captura: ["capturas/2024/9- Setembro/17- Geral/Semana 4/geral.png", "fraseGeral.png"] },
             { data: "03/10/2024", captura: ["capturas/2024/10- Outubro/17- Geral/Semana 1/1.jpeg", "fraseGeral.png"] },
+            { data: "10/10/2024", captura: ["capturas/2024/10- Outubro/17- Geral/Semana 2/geral.jpeg", "fraseGeral.png"] },
 
 
             // { data: "", captura: ["", "fraseGeral.png"] },
