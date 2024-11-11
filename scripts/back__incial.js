@@ -427,8 +427,9 @@ const unidades = {
             { data: "24/10/2024", captura: ["capturas/2024/10- Outubro/16- Financeiro/semana4/Parte 1.jpg", "capturas/2024/10- Outubro/16- Financeiro/semana4/Parte 2.jpg", "capturas/2024/10- Outubro/16- Financeiro/semana4/Parte 3.jpg"] },
             { data: "31/10/2024", captura: ["NÃO FOI ENTREGUE"] },
 
-            { data: "07/11/2024", captura: ["NÃO FOI ENTREGUE"] },
+            { data: "07/11/2024", captura: ["capturas/2024/11-Novembro/16- Financeiro/semana1/Part 1.jpg", "capturas/2024/11-Novembro/16- Financeiro/semana1/Part 2.jpg", "capturas/2024/11-Novembro/16- Financeiro/semana1/Part 3.jpg"] },
 
+            
             // { data: "", captura: ["", "", "", ""] },
         ],
     },
