@@ -150,7 +150,7 @@ const unidades = {
             { data: "24/10/2024", captura: ["capturas/2024/10- Outubro/2 -Pcp/semana4/1.jpeg", "capturas/2024/10- Outubro/2 -Pcp/semana4/2.jpeg", "capturas/2024/10- Outubro/2 -Pcp/semana4/3.jpeg"] },
             { data: "31/10/2024", captura: ["capturas/2024/10- Outubro/2 -Pcp/semana5/1.jpeg", "capturas/2024/10- Outubro/2 -Pcp/semana5/2.jpeg", "capturas/2024/10- Outubro/2 -Pcp/semana5/3.jpeg"] },
             
-            {data: "07/11/2024", captura: ["NÃO FOI ENTREGUE"] },
+            {data: "07/11/2024", captura: ["capturas/2024/11-Novembro/2 -Pcp/semana2/WhatsApp Image 2024-11-08 at 09.16.52.jpeg", "capturas/2024/11-Novembro/2 -Pcp/semana2/WhatsApp Image 2024-11-08 at 09.17.12.jpeg", "capturas/2024/11-Novembro/2 -Pcp/semana2/WhatsApp Image 2024-11-08 at 09.18.00.jpeg"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
