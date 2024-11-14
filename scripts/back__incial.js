@@ -153,7 +153,7 @@ const unidades = {
             { data: "31/10/2024", captura: ["capturas/2024/10- Outubro/2 -Pcp/semana5/1.jpeg", "capturas/2024/10- Outubro/2 -Pcp/semana5/2.jpeg", "capturas/2024/10- Outubro/2 -Pcp/semana5/3.jpeg"] },
             
             { data: "07/11/2024", captura: ["capturas/2024/11-Novembro/2 -Pcp/semana2/WhatsApp Image 2024-11-08 at 09.16.52.jpeg", "capturas/2024/11-Novembro/2 -Pcp/semana2/WhatsApp Image 2024-11-08 at 09.17.12.jpeg", "capturas/2024/11-Novembro/2 -Pcp/semana2/WhatsApp Image 2024-11-08 at 09.18.00.jpeg"] },
-            { data: "14/10/2024", captura: ["capturas/2024/11-Novembro/2 -Pcp/semana3/WhatsApp Image 2024-11-14 at 13.30.58.jpeg", "capturas/2024/11-Novembro/2 -Pcp/semana3/WhatsApp Image 2024-11-14 at 13.31.03.jpeg", "capturas/2024/11-Novembro/2 -Pcp/semana3/WhatsApp Image 2024-11-14 at 13.31.56.jpeg"] },
+            { data: "14/10/2024", captura: ["capturas/2024/11-Novembro/2 -Pcp/semana3/WhatsApp Image 2024-11-14 at 13.30.58.jpeg", "capturas/2024/11-Novembro/2 -Pcp/semana3/grafico com data certa.jpeg", "capturas/2024/11-Novembro/2 -Pcp/semana3/WhatsApp Image 2024-11-14 at 13.31.56.jpeg"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
