@@ -286,7 +286,7 @@ const unidades = {
             { data: "07/11/2024", captura: ["capturas/2024/11-Novembro/7- Design/semana1/01.jpg", "capturas/2024/11-Novembro/7- Design/semana1/02.jpg", "capturas/2024/11-Novembro/7- Design/semana1/03.jpg"] },
             { data: "14/11/2024", captura: ["capturas/2024/11-Novembro/7- Design/semana2/01.jpg", "capturas/2024/11-Novembro/7- Design/semana2/02.jpg", "capturas/2024/11-Novembro/7- Design/semana2/03.jpg"] },
             { data: "15/11/2024", captura: ["capturas/2024/11-Novembro/7- Design/semana3/01.jpg", "capturas/2024/11-Novembro/7- Design/semana3/02.jpg", "capturas/2024/11-Novembro/7- Design/semana3/03.jpg"] },
-            { data: "18/11/2024", captura: ["capturas/2024/11-Novembro/7- Design/semana4/01.jpg", "capturas/2024/11-Novembro/7- Design/semana4/02.jpg", "capturas/2024/11-Novembro/7- Design/semana4/03.jpg"] },
+            { data: "28/11/2024", captura: ["capturas/2024/11-Novembro/7- Design/semana4/01.jpg", "capturas/2024/11-Novembro/7- Design/semana4/02.jpg", "capturas/2024/11-Novembro/7- Design/semana4/03.jpg"] },
 
             
             // { data: "", captura: ["", "", "", ""] },
