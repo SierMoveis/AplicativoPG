@@ -369,8 +369,7 @@ const unidades = {
             { data: "07/11/2024", captura: ["capturas/2024/11-Novembro/10- Programação/semana1/1.png", "capturas/2024/11-Novembro/10- Programação/semana1/2.png", "capturas/2024/11-Novembro/10- Programação/semana1/3.png"] },
             { data: "14/11/2024", captura: ["capturas/2024/11-Novembro/10- Programação/semana2/1.png", "capturas/2024/11-Novembro/10- Programação/semana2/2.png", "", "capturas/2024/11-Novembro/10- Programação/semana2/3.png"] },
             { data: "15/11/2024", captura: ["capturas/2024/11-Novembro/10- Programação/semana3/1.png", "capturas/2024/11-Novembro/10- Programação/semana3/2.png", "capturas/2024/11-Novembro/10- Programação/semana3/3.png"] },
-            { data: "28/11/2024", captura: ["capturas/2024/11-Novembro/10- Programação/semana3/1.png", "capturas/2024/11-Novembro/10- Programação/semana3/2.png", "capturas/2024/11-Novembro/10- Programação/semana3/3.png"] },
-            
+            { data: "28/11/2024", captura: ["capturas/2024/11-Novembro/10- Programação/semana4/1.png", "capturas/2024/11-Novembro/10- Programação/semana4/2.png", "capturas/2024/11-Novembro/10- Programação/semana4/3.png"] },
 
             // { data: "", captura: ["", "", ""] },
 
