@@ -423,9 +423,8 @@ const unidades = {
            
             { data: "07/11/2024", captura: ["capturas/2024/11-Novembro/12- Almoxarifado/semana1/Captura de tela 2024-11-07 132442.png", "capturas/2024/11-Novembro/12- Almoxarifado/semana1/Captura de tela 2024-11-07 132517.png", "capturas/2024/11-Novembro/12- Almoxarifado/semana1/Captura de tela 2024-11-07 132637.png"] },
             { data: "14/11/2024", captura: ["NÃO FOI ENTREGUE"] },
-            { data: "15/11/2024", captura: ["NÃO FOI ENTREGUE"] },
-            { data: "28/11/2024", captura: ["capturas/2024/11-Novembro/12- Almoxarifado/semana2/Captura de tela 2024-11-14 164748.png", "capturas/2024/11-Novembro/12- Almoxarifado/semana2/Captura de tela 2024-11-14 164825.png", "capturas/2024/11-Novembro/12- Almoxarifado/semana2/Captura de tela 2024-11-14 164846.png"] },
-
+            { data: "25/11/2024", captura: ["capturas/2024/11-Novembro/12- Almoxarifado/semana2/Captura de tela 2024-11-14 164748.png", "capturas/2024/11-Novembro/12- Almoxarifado/semana2/Captura de tela 2024-11-14 164825.png", "capturas/2024/11-Novembro/12- Almoxarifado/semana2/Captura de tela 2024-11-14 164846.png"] },
+            { data: "18/11/2024", captura: ["capturas/2024/11-Novembro/12- Almoxarifado/semana5/Captura de tela 2024-11-28 091300.png", "capturas/2024/11-Novembro/12- Almoxarifado/semana5/TEXTE.png" ,"capturas/2024/11-Novembro/12- Almoxarifado/semana5/3pt.jpg"] },
 
             // { data: "", captura: ["", "", "", ""] },
         ],
