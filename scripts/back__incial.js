@@ -561,7 +561,8 @@ const unidades = {
             { data: "28/11/2024", captura: ["capturas/2024/11-Novembro/17- Geral/Semana 4/GERAL.jpg", "images/fraseGeral.png"] },
 
             { data: "05/12/2024", captura: ["capturas/2024/12-Dezembro/17- Geral/Semana 1/GRAFICO GERAL.jpg", "images/fraseGeral.png"] },
-            
+            { data: "12/12/2024", captura: ["capturas/2024/12-Dezembro/17- Geral/Semana 2/geral.jpeg", "images/fraseGeral.png"] },
+    
         ],
             // { data: "", captura: ["", "images/fraseGeral.png"] },
     
