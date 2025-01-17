@@ -362,7 +362,7 @@ const unidades = {
             { data: "18/12/2024", captura: ["NÃO FOI ENTREGUE"] },
 
             { data: "09/01/2025", captura: ["capturas/2025/1- Janeiro/8- Assistência Comercial/semana2/1.jpeg", "capturas/2025/1- Janeiro/8- Assistência Comercial/semana2/2.jpeg", "capturas/2025/1- Janeiro/8- Assistência Comercial/semana2/3.jpeg"] },
-            { data: "16/01/2025", captura: ["NÃO FOI ENTREGUE"] },
+            { data: "16/01/2025", captura: ["capturas/2025/1- Janeiro/8- Assistência Comercial/semana3/1 PT.jpg", "capturas/2025/1- Janeiro/8- Assistência Comercial/semana3/2 PT.jpg", "capturas/2025/1- Janeiro/8- Assistência Comercial/semana3/3 PT.jpg"] },
 
             // { data: "", captura: ["", "", "", ""] },
 
