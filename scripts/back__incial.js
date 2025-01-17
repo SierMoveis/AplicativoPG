@@ -429,7 +429,7 @@ const unidades = {
             { data: "18/12/2024", captura: ["NÃO FOI ENTREGUE"] },
 
             { data: "09/01/2025", captura: ["NÃO FOI ENTREGUE"] },
-            { data: "", captura: ["capturas/2025/1- Janeiro/10- Programação/semana3/1.png", "capturas/2025/1- Janeiro/10- Programação/semana3/2.png", "capturas/2025/1- Janeiro/10- Programação/semana3/3.png"] },
+            { data: "16/01/2025", captura: ["capturas/2025/1- Janeiro/10- Programação/semana3/1.png", "capturas/2025/1- Janeiro/10- Programação/semana3/2.png", "capturas/2025/1- Janeiro/10- Programação/semana3/3.png"] },
 
 
             // { data: "", captura: ["", "", ""] },
