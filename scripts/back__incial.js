@@ -294,7 +294,7 @@ const unidades = {
             { data: "18/12/2024", captura: ["NÃO FOI ENTREGUE"] },
 
             { data: "09/01/2025", captura: ["capturas/2025/1- Janeiro/6- Compras/semana1/Print 01.png", "capturas/2025/1- Janeiro/6- Compras/semana1/Print 02.png", "capturas/2025/1- Janeiro/6- Compras/semana1/Print 03.png"] },
-            { data: "10/01/2025", captura: ["capturas/2025/1- Janeiro/6- Compras/semana2/Print 01.png", "capturas/2025/1- Janeiro/6- Compras/semana2/Print 02.jpeg", "capturas/2025/1- Janeiro/6- Compras/semana2/Print 03.png"] },
+            { data: "16/01/2025", captura: ["capturas/2025/1- Janeiro/6- Compras/semana2/Print 01.png", "capturas/2025/1- Janeiro/6- Compras/semana2/Print 02.jpeg", "capturas/2025/1- Janeiro/6- Compras/semana2/Print 03.png"] },
 
 
             // { data: "", captura: ["", "", "", ""] },
