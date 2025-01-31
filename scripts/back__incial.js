@@ -234,7 +234,7 @@ const unidades = {
             { data: "09/01/2025", captura: ["capturas/2025/1- Janeiro/4- Cadastro - Kbm/semana2/pt 01 06-01 à 09-01-25.png", "capturas/2025/1- Janeiro/4- Cadastro - Kbm/semana2/pt 02 06-01 à 09-01-25.png", "capturas/2025/1- Janeiro/4- Cadastro - Kbm/semana2/pt 03 06-01 à 09-01-25.png"] },
             { data: "16/01/2025", captura: ["capturas/2025/1- Janeiro/4- Cadastro - Kbm/semana3/PT 01 10-01 à 16-01-25.png", "capturas/2025/1- Janeiro/4- Cadastro - Kbm/semana3/pt 02 10-01 à 16-01-25.png", "capturas/2025/1- Janeiro/4- Cadastro - Kbm/semana3/pt 03 10-01 à 16-01-25.png"] },
             { data: "23/01/2025", captura: ["capturas/2025/1- Janeiro/4- Cadastro - Kbm/semana4/pt 01 17-01 à 23-01-25.png", "capturas/2025/1- Janeiro/4- Cadastro - Kbm/semana4/pt 02 17-01 à 23-01-25.png", "capturas/2025/1- Janeiro/4- Cadastro - Kbm/semana4/pt 03 17-01 à 23-01-25.png"] },
-            { data: "30/01/2025", captura: ["NÃO FOI ENTREGUE"] },
+            { data: "30/01/2025", captura: ["capturas/2025/1- Janeiro/4- Cadastro - Kbm/semana5/pt 01 24-01 à 30-01-25.png", "capturas/2025/1- Janeiro/4- Cadastro - Kbm/semana5/pt 02 24-01 à 30-01-25.png", "capturas/2025/1- Janeiro/4- Cadastro - Kbm/semana5/pt 03 24-01 à 30-01-25.png"] },
 
             // { data: "", captura: ["", "", "", ""] },
             
