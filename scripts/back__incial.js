@@ -485,7 +485,7 @@ const unidades = {
             { data: "09/01/2025", captura: ["NÃO FOI ENTREGUE"] },
             { data: "16/01/2025", captura: ["NÃO FOI ENTREGUE"] },
             { data: "23/01/2025", captura: ["NÃO FOI ENTREGUE"] },
-            { data: "30/01/2025", captura: ["NÃO FOI ENTREGUE"] },
+            { data: "30/01/2025", captura: ["capturas/2025/1- Janeiro/11- Contabilidade/semana5/01.png","capturas/2025/1- Janeiro/11- Contabilidade/semana5/02.png", "capturas/2025/1- Janeiro/11- Contabilidade/semana5/03.png"] },
 
             // { data: "", captura: ["", "", "", ""] },
             // { data: "", captura: ["", "", "", ""] },
