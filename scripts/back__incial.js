@@ -178,7 +178,7 @@ const unidades = {
             { data: "23/01/2025", captura: ["NÃO FOI ENTREGUE"] },
             { data: "30/01/2025", captura: ["NÃO FOI ENTREGUE"] },
 
-            { data: "06/02/2025", captura: ["NÃO FOI ENTREGUE"] },
+            { data: "06/02/2025", captura: ["AplicativoPG/capturas/2025/2 - Fevereiro/2 -Pcp/semana1/WhatsApp Image 2025-02-07 at 16.39.42.jpeg", "AplicativoPG/capturas/2025/2 - Fevereiro/2 -Pcp/semana1/WhatsApp Image 2025-02-07 at 16.38.53.jpeg", "AplicativoPG/capturas/2025/2 - Fevereiro/2 -Pcp/semana1/WhatsApp Image 2025-02-07 at 16.39.23.jpeg"] },
 
             // { data: "", captura: ["", "", "", ""] },
         ],
