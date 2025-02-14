@@ -705,6 +705,7 @@ const unidades = {
             { data: "30/01/2025", captura: ["capturas/2025/1- Janeiro/17- Geral/Semana 5/GERAL.jpg", "images/fraseGeral.png"] },
 
             { data: "06/02/2025", captura: ["capturas/2025/2 - Fevereiro/17- Geral/Semana 1/PT1.jpg", "images/fraseGeral.png"] },
+            { data: "13/02/2025", captura: ["capturas/2025/2 - Fevereiro/17- Geral/Semana 2/geral.jpg", "images/fraseGeral.png"] },
 
             // { data: "", captura: ["", "images/fraseGeral.png"] },
     
