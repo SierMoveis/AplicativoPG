@@ -246,8 +246,9 @@ const unidades = {
             { data: "30/01/2025", captura: ["capturas/2025/1- Janeiro/4- Cadastro - Kbm/semana5/pt 01 24-01 à 30-01-25.png", "capturas/2025/1- Janeiro/4- Cadastro - Kbm/semana5/pt 02 24-01 à 30-01-25.png", "capturas/2025/1- Janeiro/4- Cadastro - Kbm/semana5/pt 03 24-01 à 30-01-25.png"] },
            
             { data: "06/02/2025", captura: ["capturas/2025/2 - Fevereiro/4- Cadastro - Kbm/semana1/pt 01 31-01 à 06-02-25.png", "capturas/2025/2 - Fevereiro/4- Cadastro - Kbm/semana1/pt 02 31-01 à 06-02-25.png", "capturas/2025/2 - Fevereiro/4- Cadastro - Kbm/semana1/pt 03 31-01 à 06-02-25.png"] },  
-            { data: "13/02/2025", captura: ["NÃO FOI ENTREGUE"] },
+            { data: "13/02/2025", captura: ["capturas/2025/2 - Fevereiro/4- Cadastro - Kbm/semana2/pt 01 07-02 à 13-02-25.png", "capturas/2025/2 - Fevereiro/4- Cadastro - Kbm/semana2/pt 02 07-02 à 13-02-25.png", "capturas/2025/2 - Fevereiro/4- Cadastro - Kbm/semana2/pt 03 07-02 à 13-02-25.png"] },
 
+            
             // { data: "", captura: ["", "", "", ""] },
             
         
