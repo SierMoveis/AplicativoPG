@@ -142,6 +142,8 @@ const unidades = {
             
             { data: "06/02/2025", captura: ["capturas/2025/2 - Fevereiro/1- Transporte/semana1/1.jpg", "capturas/2025/2 - Fevereiro/1- Transporte/semana1/2.jpg", "capturas/2025/2 - Fevereiro/1- Transporte/semana1/3.jpg"] },
             { data: "13/02/2025", captura: ["capturas/2025/2 - Fevereiro/1- Transporte/semana2/1.jpg", "capturas/2025/2 - Fevereiro/1- Transporte/semana2/2.jpg", "capturas/2025/2 - Fevereiro/1- Transporte/semana2/3.jpg"] },
+            { data: "20/02/2025", captura: ["capturas/2025/2 - Fevereiro/1- Transporte/semana3/1.jpg", "capturas/2025/2 - Fevereiro/1- Transporte/semana3/2.jpg", "capturas/2025/2 - Fevereiro/1- Transporte/semana3/3.jpg"] },
+
 
             // { data: "", captura: ["", "", ""] },
         
@@ -181,6 +183,8 @@ const unidades = {
 
             { data: "06/02/2025", captura: ["capturas/2025/2 - Fevereiro/2 -Pcp/semana1/WhatsApp Image 2025-02-07 at 16.39.42.jpeg", "capturas/2025/2 - Fevereiro/2 -Pcp/semana1/WhatsApp Image 2025-02-07 at 16.38.53.jpeg", "capturas/2025/2 - Fevereiro/2 -Pcp/semana1/WhatsApp Image 2025-02-07 at 16.39.23.jpeg"] },
             { data: "13/02/2025", captura: ["capturas/2025/2 - Fevereiro/2 -Pcp/semana2/WhatsApp Image 2025-02-14 at 07.20.13.jpeg", "capturas/2025/2 - Fevereiro/2 -Pcp/semana2/WhatsApp Image 2025-02-14 at 07.20.49.jpeg", "capturas/2025/2 - Fevereiro/2 -Pcp/semana2/WhatsApp Image 2025-02-14 at 07.21.38.jpeg"] },
+            { data: "20/02/2025", captura: ["NÃO FOI ENTREGUE"] },
+
 
             // { data: "", captura: ["", "", "", ""] },
         ],
@@ -208,7 +212,7 @@ const unidades = {
 
             { data: "06/02/2025", captura: ["NÃO FOI ENTREGUE"] },
             { data: "13/02/2025", captura: ["NÃO FOI ENTREGUE"] },
-
+            { data: "20/02/2025", captura: ["NÃO FOI ENTREGUE"] },
 
             // { data: "", captura: ["", "", "", ""] },
         ],
@@ -247,7 +251,7 @@ const unidades = {
            
             { data: "06/02/2025", captura: ["capturas/2025/2 - Fevereiro/4- Cadastro - Kbm/semana1/pt 01 31-01 à 06-02-25.png", "capturas/2025/2 - Fevereiro/4- Cadastro - Kbm/semana1/pt 02 31-01 à 06-02-25.png", "capturas/2025/2 - Fevereiro/4- Cadastro - Kbm/semana1/pt 03 31-01 à 06-02-25.png"] },  
             { data: "13/02/2025", captura: ["capturas/2025/2 - Fevereiro/4- Cadastro - Kbm/semana2/pt 01 07-02 à 13-02-25.png", "capturas/2025/2 - Fevereiro/4- Cadastro - Kbm/semana2/pt 02 07-02 à 13-02-25.png", "capturas/2025/2 - Fevereiro/4- Cadastro - Kbm/semana2/pt 03 07-02 à 13-02-25.png"] },
-
+            { data: "20/02/2025", captura: ["capturas/2025/2 - Fevereiro/4- Cadastro - Kbm/semana3/pt 01 14-02 à 20-02-25.png", "capturas/2025/2 - Fevereiro/4- Cadastro - Kbm/semana3/pt 02 14-02 à 20-02-25.png", "capturas/2025/2 - Fevereiro/4- Cadastro - Kbm/semana3/pt 03 14-02 à 20-02-25.png"] },
             
             // { data: "", captura: ["", "", "", ""] },
             
@@ -288,7 +292,7 @@ const unidades = {
            
             { data: "06/02/2025", captura: ["capturas/2025/2 - Fevereiro/5- Comercial/semana1/1.png", "capturas/2025/2 - Fevereiro/5- Comercial/semana1/2.png", "capturas/2025/2 - Fevereiro/5- Comercial/semana1/3.png"] },
             { data: "13/02/2025", captura: ["capturas/2025/2 - Fevereiro/5- Comercial/semana2/1.png", "capturas/2025/2 - Fevereiro/5- Comercial/semana2/2.png", "capturas/2025/2 - Fevereiro/5- Comercial/semana2/3.png"] },
-
+            { data: "20/02/2025", captura: ["capturas/2025/2 - Fevereiro/5- Comercial/semana3/1.png", "capturas/2025/2 - Fevereiro/5- Comercial/semana3/2.png", "capturas/2025/2 - Fevereiro/5- Comercial/semana3/3.png"] },
 
             // { data: "", captura: ["", "", ""] },
         ],
@@ -327,7 +331,7 @@ const unidades = {
            
             { data: "06/02/2025", captura: ["capturas/2025/2 - Fevereiro/6- Compras/semana1/Print 01.png", "capturas/2025/2 - Fevereiro/6- Compras/semana1/Print 02.png", "capturas/2025/2 - Fevereiro/6- Compras/semana1/Print 03.png"] },
             { data: "13/02/2025", captura: ["capturas/2025/2 - Fevereiro/6- Compras/semana2/print 01.png", "capturas/2025/2 - Fevereiro/6- Compras/semana2/print 02.jpeg", "capturas/2025/2 - Fevereiro/6- Compras/semana2/print 03.png"] },
-
+            { data: "20/02/2025", captura: ["capturas/2025/2 - Fevereiro/6- Compras/semana3/Print 01.png", "capturas/2025/2 - Fevereiro/6- Compras/semana3/Print 02.png", "capturas/2025/2 - Fevereiro/6- Compras/semana3/Print 03.png"] },
             
             // { data: "", captura: ["", "", "", ""] },
 
@@ -366,6 +370,8 @@ const unidades = {
             
             { data: "06/02/2025", captura: ["NÃO FOI ENTREGUE"] },
             { data: "13/02/2025", captura: ["NÃO FOI ENTREGUE"] },
+            { data: "20/02/2025", captura: ["capturas/2025/2 - Fevereiro/7- Design/semana3/01.jpg", "capturas/2025/2 - Fevereiro/7- Design/semana3/02.jpg", "capturas/2025/2 - Fevereiro/7- Design/semana3/03.jpg"] },
+
 
             // { data: "", captura: ["", "", ""] },
         ],
@@ -405,6 +411,7 @@ const unidades = {
            
             { data: "06/02/2025", captura: ["capturas/2025/2 - Fevereiro/8- Assistência Comercial/semana1/1.jpeg", "capturas/2025/2 - Fevereiro/8- Assistência Comercial/semana1/2.jpeg", "capturas/2025/2 - Fevereiro/8- Assistência Comercial/semana1/3.jpeg"] },
             { data: "13/02/2025", captura: ["capturas/2025/2 - Fevereiro/8- Assistência Comercial/semana2/1.PNG", "capturas/2025/2 - Fevereiro/8- Assistência Comercial/semana2/2.jpeg", "capturas/2025/2 - Fevereiro/8- Assistência Comercial/semana2/3.jpeg"] },
+            { data: "20/02/2025", captura: ["capturas/2025/2 - Fevereiro/8- Assistência Comercial/semana3/1.jpeg", "capturas/2025/2 - Fevereiro/8- Assistência Comercial/semana3/2.jpeg", "capturas/2025/2 - Fevereiro/8- Assistência Comercial/semana3/3.jpeg"] },
 
             // { data: "", captura: ["", "", ""] },
 
@@ -444,6 +451,8 @@ const unidades = {
 
             { data: "06/02/2025", captura: ["NÃO FOI ENTREGUE"] },
             { data: "13/02/2025", captura: ["NÃO FOI ENTREGUE"] },
+            { data: "20/02/2025", captura: ["NÃO FOI ENTREGUE"] },
+
 
             // { data: "", captura: ["", "", ""] },
         
@@ -482,7 +491,9 @@ const unidades = {
 
             { data: "06/02/2025", captura: ["capturas/2025/2 - Fevereiro/10- Programação/semana1/1.png", "capturas/2025/2 - Fevereiro/10- Programação/semana1/2.png", "capturas/2025/2 - Fevereiro/10- Programação/semana1/3.png"] },
             { data: "13/02/2025", captura: ["capturas/2025/2 - Fevereiro/10- Programação/semana2/1.png", "capturas/2025/2 - Fevereiro/10- Programação/semana2/2.png", "capturas/2025/2 - Fevereiro/10- Programação/semana2/3.png"] },
-            
+            { data: "20/02/2025", captura: ["capturas/2025/2 - Fevereiro/10- Programação/semana2/1.png", "capturas/2025/2 - Fevereiro/10- Programação/semana2/2.png", "capturas/2025/2 - Fevereiro/10- Programação/semana2/3.png"] },
+
+
             // { data: "", captura: ["", "", ""] },
 
 
@@ -521,7 +532,7 @@ const unidades = {
 
             { data: "06/02/2025", captura: ["NÃO FOI ENTREGUE"] },
             { data: "13/02/2025", captura: ["NÃO FOI ENTREGUE"] },
-
+            { data: "20/02/2025", captura: ["NÃO FOI ENTREGUE"] },
             
             // { data: "", captura: ["", "", "", ""] },
             // { data: "", captura: ["", "", "", ""] },
@@ -561,6 +572,8 @@ const unidades = {
 
             { data: "06/02/2025", captura: ["NÃO FOI ENTREGUE"] },
             { data: "13/02/2025", captura: ["NÃO FOI ENTREGUE"] },
+            { data: "20/02/2025", captura: ["NÃO FOI ENTREGUE"] },
+
             
             // { data: "", captura: ["", "", "", ""] },
         ],
@@ -593,7 +606,7 @@ const unidades = {
 
             { data: "06/02/2025", captura: ["NÃO FOI ENTREGUE"] },
             { data: "13/02/2025", captura: ["NÃO FOI ENTREGUE"] },
-
+            { data: "20/02/2025", captura: ["NÃO FOI ENTREGUE"] },
             
             // { data: "", captura: ["", "", "", ""] },
         ],
@@ -623,7 +636,7 @@ const unidades = {
 
             { data: "06/02/2025", captura: ["NÃO FOI ENTREGUE"] },
             { data: "13/02/2025", captura: ["NÃO FOI ENTREGUE"] },
-
+            { data: "20/02/2025", captura: ["NÃO FOI ENTREGUE"] },
             
             // { data: "", captura: ["", "", "", ""] },
         ],
@@ -667,6 +680,7 @@ const unidades = {
 
             { data: "06/02/2025", captura: ["capturas/2025/2 - Fevereiro/16- Financeiro/semana1/Part 1.jpg", "capturas/2025/2 - Fevereiro/16- Financeiro/semana1/Part 2.jpg", "capturas/2025/2 - Fevereiro/16- Financeiro/semana1/Part 3.jpg"] },
             { data: "13/02/2025", captura: ["NÃO FOI ENTREGUE"] },
+            { data: "20/02/2025", captura: ["NÃO FOI ENTREGUE"] },
 
             
             // { data: "", captura: ["", "", ""] },
@@ -707,6 +721,8 @@ const unidades = {
 
             { data: "06/02/2025", captura: ["capturas/2025/2 - Fevereiro/17- Geral/Semana 1/PT1.jpg", "images/fraseGeral.png"] },
             { data: "13/02/2025", captura: ["capturas/2025/2 - Fevereiro/17- Geral/Semana 2/geral.jpg", "images/fraseGeral.png"] },
+            { data: "20/02/2025", captura: ["capturas/2025/2 - Fevereiro/17- Geral/Semana 3/geral.jpg", "images/fraseGeral.png"] },
+
 
             // { data: "", captura: ["", "images/fraseGeral.png"] },
     
